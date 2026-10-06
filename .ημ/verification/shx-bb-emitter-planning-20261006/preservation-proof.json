@@ -1,0 +1,23 @@
+{
+  "base": "f4ee133dcf1650c7eafb623ef084f62417252477",
+  "fork_main": "c3a6631a39e57d88898c3ba52cd62573e4b9ecf9",
+  "forkonly": 0,
+  "accepted_upstream_only_commits": 45,
+  "sync_worktree_exact_upstream_clean": true,
+  "original_card_frontmatter_and_body_bytes_exact_prefix": true,
+  "original_entire_comment_suffix_exact": true,
+  "native_frontmatter_and_comment_sections_equal": true,
+  "old_receipts_entire_prefix_exact": true,
+  "old_receipts_bytes": 132196,
+  "old_receipts_sha256": "4ef03f25f8088451e0d641c758472a716a41490e8ad1eb225d94ca1f493992c3",
+  "new_owned_receipts": 1,
+  "owning_RR_validate_line_ok": true,
+  "consumer_pin": "154440f3c997aa9208194bba59b5edbef3654f78",
+  "tracked_source_tests_workflows_config_and_events_no_diff": true,
+  "lossless_capture_count": 38,
+  "authoritative_EDN_read_exit": 1,
+  "diagnostic_JSON_mirror_read_exit": 0,
+  "ready_transition_or_gate_validation": "not attempted or claimed",
+  "implementation_suite": "not run; planning only",
+  "operator_capture_preparation_note": "Initial evidence assembly command had a Python syntax typo rejected before execution; corrected and completed without source/history interference."
+}

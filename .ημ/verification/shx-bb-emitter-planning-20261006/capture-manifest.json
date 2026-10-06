@@ -1,0 +1,268 @@
+[
+  {
+    "capture": "authoritative-edn-read-board.command.json",
+    "bytes": 216,
+    "sha256": "414d9cd0a8df3ba925bf459e3ed4f300525587ce48c8123319659d2983fd4e06",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "authoritative-edn-read-board.stderr",
+    "bytes": 509,
+    "sha256": "028509b534b031296d5ea8acc92a59d5cfe4f40b74dcc2b00e7c183bc49820dc",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "authoritative-edn-read-board.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "clone.stderr",
+    "bytes": 89,
+    "sha256": "45a7045faac8789c7d39ba8b70baf49c9c8a40c976bac0e841279e816ddc658c",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "clone.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "fetch-upstream.stderr",
+    "bytes": 92,
+    "sha256": "09155b13b49707f87c02341287c7872ed8da97afac047d3cbe08532768c9e196",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "fetch-upstream.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-edn-read-board.stderr",
+    "bytes": 509,
+    "sha256": "028509b534b031296d5ea8acc92a59d5cfe4f40b74dcc2b00e7c183bc49820dc",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-edn-read-board.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-json-mirror-read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-json-mirror-read-board.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-native-existing-task.json",
+    "bytes": 3787,
+    "sha256": "22bdafa20218a47bc45176cd0cf3c59c32f70752e5a7022e7fff70f5857e7105",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-native-existing-task.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-main.json",
+    "bytes": 40374,
+    "sha256": "b933a7df317ca60b9b4f7c7f9f3356227e57715432992015c86fe9f4d11e9d65",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-main.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-prs.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-prs.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-issues.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-issues.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-prs.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-prs.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.command.json",
+    "bytes": 217,
+    "sha256": "677fb0db8b963692065c8d673bccadefb336a91be9a1d0e59503a46672f6f358",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.command.json",
+    "bytes": 254,
+    "sha256": "f126bdf692f6902d3ad55800743f0827d49dfd2407a70ec1f6db6b3571b037aa",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.stdout",
+    "bytes": 10793,
+    "sha256": "f50b038cc8d307a5e22ab5553a5fbc2f85eadec77850f4b5f1c96419bf8d239f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-command.json",
+    "bytes": 726,
+    "sha256": "82da0fc6a605135d6f745d403da273e7a3e3ea07f9ce67693ec4975aee4788d8",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-validation.edn",
+    "bytes": 4927,
+    "sha256": "985d653791750e7db8da8f0ffa542676cc1eddc49f6da7e517bc43c532f98902",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-source-provenance.json",
+    "bytes": 2705,
+    "sha256": "1e1e8fa6028519f2a8741db9527fa6faf93663e05486c25acc7590b7cd1e96d1",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-command.json",
+    "bytes": 2957,
+    "sha256": "fb03df8a6846e0cfeb141ddd27142d1ccc2858531df5219847244c830be5873b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-validation.edn",
+    "bytes": 4852,
+    "sha256": "86396165e7c9cda4c79e0ee1ba32d0e1dffd8bdf78f3d21f7bd40fb927ade649",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-river-clone.stderr",
+    "bytes": 81,
+    "sha256": "06e2f15a2c327e3f05a9a897ba618bf0c354616ebda036de0fc79bf00cf84db2",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-river-clone.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "shx-task-before.json",
+    "bytes": 2963,
+    "sha256": "a24d8bea09235f1396f3816dd93b925187e8f631027a068a73079ded55c10ca9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "shx-task-before.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  }
+]
