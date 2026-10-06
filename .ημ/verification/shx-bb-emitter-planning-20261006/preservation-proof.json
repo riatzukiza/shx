@@ -10,11 +10,11 @@
   "old_receipts_entire_prefix_exact": true,
   "old_receipts_bytes": 132196,
   "old_receipts_sha256": "4ef03f25f8088451e0d641c758472a716a41490e8ad1eb225d94ca1f493992c3",
-  "new_owned_receipts": 2,
+  "new_owned_receipts": 3,
   "owning_RR_validate_line_ok": true,
   "consumer_pin": "154440f3c997aa9208194bba59b5edbef3654f78",
   "tracked_source_tests_workflows_config_and_events_no_diff": true,
-  "lossless_capture_count": 63,
+  "lossless_capture_count": 79,
   "authoritative_EDN_read_exit": 1,
   "diagnostic_JSON_mirror_read_exit": 0,
   "ready_transition_or_gate_validation": "not attempted or claimed",
@@ -38,5 +38,21 @@
   "prior_reflection_entire_prefix_exact": true,
   "prior_38_captures_encoded_values_and_manifest_exact": true,
   "both_owned_rows_actual_RR_consumer_valid": true,
-  "all_tracked_gate_source_test_config_policy_inputs_unchanged_from_tested_head": true
+  "all_tracked_gate_source_test_config_policy_inputs_unchanged_from_tested_head": true,
+  "three_owned_rows_actual_RR_consumer_valid": true,
+  "prior_63_captures_encoded_values_and_manifest_exact": true,
+  "Rheos_distribution_correction": {
+    "source_pin": "ef3c4abf1ea75199486f693e9470df3fec88dd49",
+    "existing_issue": "https://github.com/open-hax/eta-mu/issues/239",
+    "existing_issue_fresh_state": "open",
+    "installed_eta_mu_version": "1.1.1",
+    "installed_bundled_Rheos_version": "0.1.0",
+    "current_source_EDN_support": "present",
+    "canonical_API_preserves_Shx_keyword_gate_config": "root-owned verified probe; not rerun by this lane",
+    "canonical_current_full_CLI_readback": "unverified; no guessed result",
+    "blocker": "qualified distribution/artifact consumption and full CLI readback",
+    "new_source_feature_issue": "none",
+    "previous_refusal_receipts_capture_bytes": "preserved"
+  },
+  "correction_operator_note": "First editable-doc correction command had a Path/string typo after the card update but before ledger append; completed remaining edits without rewriting any historical receipts or cross-lane effect."
 }

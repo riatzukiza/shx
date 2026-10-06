@@ -128,15 +128,24 @@ blocking checks passed, Kaocha19tests/46assertions/0failures. Its existing
 typed.clojure deprecation output is retained. This is local baseline evidence,
 not native planning approval, reviewed breakdown or lawful ready admission.
 
-The installed Rheos 1.1.1 rejects the authoritative `openhax.kanban.edn` via
+Installed eta-mu1.1.1 bundles stale `@eta-mu/rheos`0.1.0 and rejects the
+authoritative `openhax.kanban.edn` via
 `JSON.parse` (exit1). Reading `openhax.kanban.json` succeeds as a diagnostic mirror
 of the same task directory; it omits the authoritative build-gate extension.
 That read does not validate EDN discovery, the build gate, lifecycle transitions
 or readiness. Do not add a Shx config parser, board engine, alternate gate or
-workflow shim. Resolve current authoritative engine/config compatibility through
-the owning Rheos implementation before any operational transition. Native
-planning qualification, reviewed breakdown and lawful child ready admission are
-still missing; incoming state and historical events remain unchanged.
+workflow shim. Current accepted Rheos source
+`ef3c4abf1ea75199486f693e9470df3fec88dd49` already implements and documents EDN
+configuration. Root's independent canonical shape/config API probe parsed this
+unchanged Shx EDN and preserved `:extends` and `:build-gate-commands`; that is
+source/API evidence, not a full CLI or transition-gate qualification. Existing
+[Eta Mu issue239](https://github.com/open-hax/eta-mu/issues/239) owns the stale
+published artifact, explicitly noting its July18 publication predates EDN PR158.
+The hold is qualified artifact distribution/consumption and canonical full CLI
+readback, not a new Rheos source feature. Do not duplicate issue239 or change
+Shx's EDN authority to match the stale bundle. Native planning qualification,
+reviewed breakdown and lawful child ready admission remain missing; incoming
+state and historical events are unchanged.
 
 ### Non-goals and risks
 

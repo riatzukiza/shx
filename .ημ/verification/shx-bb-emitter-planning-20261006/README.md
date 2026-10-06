@@ -14,11 +14,14 @@ fabricated engine comment. Original receipts and whole operational events remain
 unchanged except one new append-only typed receipt. All source/test/config/workflow
 blobs remain unchanged. No original archived captures were imported or evaluated.
 
-Native authoritative EDN `read-board` fails exit1 at installed Rheos JSON.parse;
+Native authoritative EDN `read-board` fails exit1 at stale `@eta-mu/rheos`0.1.0
+bundled by installed eta-mu1.1.1 (JSON.parse);
 the deprecated JSON mirror read-board/read-task exits0 and reports 31 tasks,
 zero ready, 17 incoming and six todo. Those mirror reads are diagnostic, not
 EDN-build-gate/transition/readiness validation. No alternate parser/config/gate
-was added. No new upstream gap is asserted without owner-contract deduplication.
+was added. Current accepted Rheos source already supports EDN; the existing
+[Eta Mu239](https://github.com/open-hax/eta-mu/issues/239) owns stale distribution.
+Qualified artifact consumption and canonical full CLI readback remain held.
 
 The actual `open-hax/receipt-river` package at
 `154440f3c997aa9208194bba59b5edbef3654f78` constructs the new receipt with
@@ -56,3 +59,23 @@ An appended supported typed `:test-run` receipt and reflection record this resul
 the previous receipt and all38 original captures remain unchanged. New source
 implementation and mutation experiments remain held. This local required gate
 does not create native approval/rounds or repair the authoritative EDN load refusal.
+
+## Current-source versus installed-artifact correction
+
+Current accepted Rheos source `ef3c4abf1ea75199486f693e9470df3fec88dd49`
+implements/documents EDN. Root independently ran the canonical shape/config API
+on unchanged Shx EDN and retained `:extends` / `:build-gate-commands`; that probe
+is root-owned source/API evidence. This lane read the pinned current source
+and freshly verified issue239 is open and explicitly describes the stale
+July18 npm artifact predating EDN PR158. Installed package metadata independently
+confirms eta-mu1.1.1 / @eta-mu/rheos0.1.0. New raw source/issue/provenance captures
+retain those exact facts and their limits.
+
+The earlier installed-CLI refusal remains valid historical evidence. The
+misleading implementation attribution is corrected by an append-only supported
+`:adjudication` receipt; original receipts and all63 prior encoded captures stay
+exact. No new source-feature issue is filed. The current hold is qualified
+distribution/artifact consumption and canonical full CLI readback, still
+unverified here; no native gate/ready/transition inference follows from an API
+parse. All tracked strict-gate inputs remain unchanged from actual44aa8ebe,
+so no suite is repeated.

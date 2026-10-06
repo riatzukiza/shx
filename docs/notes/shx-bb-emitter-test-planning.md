@@ -30,11 +30,16 @@ not tested here and no credential failure is inferred. Static-analysis/test work
 are checks. No eager auto-merge, release/deploy/signing caller was found in the three
 committed workflows. Automatic merge must remain off; no settings or workflows change.
 
-Authoritative EDN native read fails with the installed Rheos JSON config reader;
+Authoritative EDN native read fails with stale `@eta-mu/rheos`0.1.0 bundled
+by installed eta-mu1.1.1;
 the deprecated JSON mirror reads 31 tasks, zero ready, six todo, 17 incoming,
 one breakdown, one review, four done, one icebox, one archived. Mirror results are
-diagnostic only; no transitions or gate validation. This proposal neither duplicates
-Rheos nor files a new upstream gap without checking the actual owner EDN contract.
+diagnostic only; no transitions or gate validation. Current accepted Rheos `ef3c4abf1ea75199486f693e9470df3fec88dd49` already
+implements/documents EDN. Root canonical shape/config API evidence preserves
+`:extends` / `:build-gate-commands` in unchanged Shx EDN. Existing
+[Eta Mu239](https://github.com/open-hax/eta-mu/issues/239) tracks stale distribution
+predating EDN PR158. Qualified current artifact consumption and full CLI readback
+remain unverified; no new source implementation issue or readiness is inferred.
 
 Verification is documentary scope/preservation plus the actual upstream Receipt
 River consumer on the new owned receipt(s). Existing Shx has no local receipt
@@ -59,7 +64,7 @@ claim is made. No suppression, ratchet, tool pin or source fix was introduced.
 This is existing baseline qualification, not execution of the proposed bb/CLI/Bash
 implementation tests or mutation experiments. The staged source/config/test/tool-policy
 inputs remain unchanged across the evidence-only successor commit, so this gate is
-not repeated. Native review, breakdown, authoritative Rheos compatibility and lawful
+not repeated. Native review, breakdown, qualified current Rheos artifact consumption/full CLI readback and lawful
 ready admission remain outstanding. The separate source-sync candidate preserves
 accepted history; no fresh gate execution on that candidate is inferred.
 
@@ -70,3 +75,14 @@ Maven, Gitlibs, npm, analyzer, JVM-user, XDG and temp paths are private. HOME wa
 not repurposed, no watcher/server/port was started, and no global config was written.
 Raw stdout/stderr, complete argv/environment scope, time/exit and source/tool pins
 are losslessly captured.
+
+## Distribution attribution correction
+
+The earlier preparation accurately captured a JSON.parse refusal but imprecisely
+routed it toward owning source implementation. Source/API support is already
+present at the accepted Rheos pin above. Current Git source and fresh open issue239
+confirm the distribution distinction; root's canonical API probe is cited as
+root-owned evidence. A new supported `:adjudication` receipt preserves the earlier
+record and corrects this attribution. No current canonical full CLI build/readback
+or board transition is claimed, and no alternate config/parser/workflow is added.
+Existing required gate remains bound to actual44aa8ebe with unchanged gate inputs.
