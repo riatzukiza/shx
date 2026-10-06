@@ -1,0 +1,821 @@
+[
+  {
+    "capture": "authoritative-edn-read-board.command.json",
+    "bytes": 216,
+    "sha256": "414d9cd0a8df3ba925bf459e3ed4f300525587ce48c8123319659d2983fd4e06",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "authoritative-edn-read-board.stderr",
+    "bytes": 509,
+    "sha256": "028509b534b031296d5ea8acc92a59d5cfe4f40b74dcc2b00e7c183bc49820dc",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "authoritative-edn-read-board.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "clone.stderr",
+    "bytes": 89,
+    "sha256": "45a7045faac8789c7d39ba8b70baf49c9c8a40c976bac0e841279e816ddc658c",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "clone.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "fetch-upstream.stderr",
+    "bytes": 92,
+    "sha256": "09155b13b49707f87c02341287c7872ed8da97afac047d3cbe08532768c9e196",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "fetch-upstream.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-edn-read-board.stderr",
+    "bytes": 509,
+    "sha256": "028509b534b031296d5ea8acc92a59d5cfe4f40b74dcc2b00e7c183bc49820dc",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-edn-read-board.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-json-mirror-read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-json-mirror-read-board.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-native-existing-task.json",
+    "bytes": 3787,
+    "sha256": "22bdafa20218a47bc45176cd0cf3c59c32f70752e5a7022e7fff70f5857e7105",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-native-existing-task.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-main.json",
+    "bytes": 40374,
+    "sha256": "b933a7df317ca60b9b4f7c7f9f3356227e57715432992015c86fe9f4d11e9d65",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-main.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-prs.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-personal-prs.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-issues.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-issues.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-prs.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "intake-upstream-prs.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.command.json",
+    "bytes": 217,
+    "sha256": "677fb0db8b963692065c8d673bccadefb336a91be9a1d0e59503a46672f6f358",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-board-final.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.command.json",
+    "bytes": 254,
+    "sha256": "f126bdf692f6902d3ad55800743f0827d49dfd2407a70ec1f6db6b3571b037aa",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "mirror-read-task-final.stdout",
+    "bytes": 10793,
+    "sha256": "f50b038cc8d307a5e22ab5553a5fbc2f85eadec77850f4b5f1c96419bf8d239f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-command.json",
+    "bytes": 726,
+    "sha256": "82da0fc6a605135d6f745d403da273e7a3e3ea07f9ce67693ec4975aee4788d8",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-validation.edn",
+    "bytes": 4927,
+    "sha256": "985d653791750e7db8da8f0ffa542676cc1eddc49f6da7e517bc43c532f98902",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-final-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "owning-consumer-source-provenance.json",
+    "bytes": 2705,
+    "sha256": "1e1e8fa6028519f2a8741db9527fa6faf93663e05486c25acc7590b7cd1e96d1",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-command.json",
+    "bytes": 2957,
+    "sha256": "fb03df8a6846e0cfeb141ddd27142d1ccc2858531df5219847244c830be5873b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-validation.edn",
+    "bytes": 4852,
+    "sha256": "86396165e7c9cda4c79e0ee1ba32d0e1dffd8bdf78f3d21f7bd40fb927ade649",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-builder-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-river-clone.stderr",
+    "bytes": 81,
+    "sha256": "06e2f15a2c327e3f05a9a897ba618bf0c354616ebda036de0fc79bf00cf84db2",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "receipt-river-clone.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "shx-task-before.json",
+    "bytes": 2963,
+    "sha256": "a24d8bea09235f1396f3816dd93b925187e8f631027a068a73079ded55c10ca9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "shx-task-before.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-cli-download.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-final-mirror-task.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-final-mirror-task.stdout",
+    "bytes": 11182,
+    "sha256": "356255ae3c8b93bca48d9b1eae15e20d55e64953cd707840cf1780c31e79f9ad",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-command.json",
+    "bytes": 866,
+    "sha256": "56e652cd8d0a3e41c78b467ab8ed4f50a795eae15d0809daa039f73b110d43c1",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-validation.edn",
+    "bytes": 9816,
+    "sha256": "5ad36aee5618fedd08fff83ea17a6decb732df7605f29f9fc76b8c84d0e3197e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-private-tool-provenance.json",
+    "bytes": 1757,
+    "sha256": "8a80fa35bd523b7fa9b88a586653ac94adb1d1e3569dfceea12d5912f8d01873",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-command.json",
+    "bytes": 2855,
+    "sha256": "f194bca99310c707576b25d704e5f43160aac801852b09b669ed13ebbf450c43",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-validation.edn",
+    "bytes": 4808,
+    "sha256": "9a174f0c1b90c2edabc74f8faa0ec9bb948f892df7e674e530477277987f52f3",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-bb.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-bb.stdout",
+    "bytes": 19,
+    "sha256": "8730c3a60733d9b713f3cfee7224926659d214a19494137103c46975acaf8d38",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clj-kondo.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clj-kondo.stdout",
+    "bytes": 22,
+    "sha256": "a8e7193f0d919edc0fea10570718d78163fe5c55bfad20146d8a79f98d422d3e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure-lsp.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure-lsp.stdout",
+    "bytes": 53,
+    "sha256": "fcad9e5ff6574f2211b14cf981744b4e629a0c90899f672200599dc2c2b7cbaa",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure.stdout",
+    "bytes": 596,
+    "sha256": "5b46a5b5e756ba7d28f9be8ed03f025deffd8b82cbe036b632ddbdc89f04a477",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-java.stderr",
+    "bytes": 349,
+    "sha256": "51af6ccba3c59ee902803ba30f11e4155eae9667ad3bc0c192abc144c30a3f9d",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-java.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-node.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-node.stdout",
+    "bytes": 9,
+    "sha256": "50956a2c27b1a442408131f86103ff1df8a7f4a29502df81d216ba19e2c2f4a6",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate-command.json",
+    "bytes": 1641,
+    "sha256": "e3f07f6543d4d6b04d33012a07cd3dd104d3b733f7827e3f0ba886b87b9bee4d",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate.stderr",
+    "bytes": 7657,
+    "sha256": "4e236e8109187f103fc9fd51b7b6b6a403d0e0fe2cd70513e42c7216f5841286",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate.stdout",
+    "bytes": 1325,
+    "sha256": "36a4d00efe7a405e1fc4e40b540d6e98c9b99bf2ca6a1c935e63f89b126cfb5e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-adjudication-builder.edn",
+    "bytes": 4282,
+    "sha256": "628896994bee4587504f079cef608642f0b36bd31efbfbe57083436a8592bb05",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-adjudication-builder.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-adjudication-command.json",
+    "bytes": 2577,
+    "sha256": "de8983cf1fe3426dbb9e67b20b5331f7ea933969e91dce2c0a813127ca06a5c2",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-final-mirror-task.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-final-mirror-task.stdout",
+    "bytes": 11799,
+    "sha256": "adb721af9f2763c256899e6b7825a0069a9a9c33ccef4f25f7a1d09265466db0",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-final-owning-last3-command.json",
+    "bytes": 889,
+    "sha256": "707e712444aca2f6ee204c038db017e15366ae797a58bb76efdd3659af08d44a",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-final-owning-last3.edn",
+    "bytes": 14105,
+    "sha256": "97e177cf2c38940857b9a04f6ea5f45c570de7434fd06c61c038fb92ad9940b5",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "distribution-final-owning-last3.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "eta239-current.json",
+    "bytes": 11061,
+    "sha256": "9a876570d5612cc2808c9bc95ea3a42f748432400727fcf8d8ef8b99199b384c",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "eta239-current.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-current-source-docs-cli.md",
+    "bytes": 10636,
+    "sha256": "8d12b4c27b32f4b83c05fe7e25590189157d8d3d3478c652fef1bbf7c58e48f7",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-current-source-src-rheos-backend-infra-config.cljs",
+    "bytes": 10419,
+    "sha256": "32eef60fad9ea07bcda2a5129fc5f0a2c1d3eb006166152241e185ef6c90b673",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-current-source-src-rheos-backend-shape-config.cljs",
+    "bytes": 1986,
+    "sha256": "507fbaff23e061b476663b17c1adcc340583361ec25fbd8ba951dfedc31ee2a7",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-distribution-correction-provenance.json",
+    "bytes": 1462,
+    "sha256": "a1ee68b3102ad140df07db1874b1cdfad077c913d5ebfaad6f63a9c2c682fcf4",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-supported-source-commit.json",
+    "bytes": 68775,
+    "sha256": "5add13d8056cb2ef72957a7299d9599e60f03e8090e98b1d971446a025cfa284",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "rheos-supported-source-commit.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-diagnostic-build.stderr",
+    "bytes": 1456,
+    "sha256": "3c749beb58934bbfa6133f12fe4d053baeba51222da223ef246e021e9f964452",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-diagnostic-build.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-private-probe-build.stderr",
+    "bytes": 679,
+    "sha256": "5fb8d41bf032e809ac3755bb07c3f324e1e47f3e3de20b8759b276a7e294ad05",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-private-probe-build.stdout",
+    "bytes": 181,
+    "sha256": "b9a6e2b4a3070bc38d8ddcea65f3dd9f321adcb7f3ca7d00c1a937ef48f85603",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-cli-private-build.stderr",
+    "bytes": 17487,
+    "sha256": "308e11974fcc65ad189ca78ec5214789089b6367d6c5c244eb6fdfff2d9c862c",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-cli-private-build.stdout",
+    "bytes": 161,
+    "sha256": "582f5abe652e49b0722afe9da19f3eb1fecd2074db3435a9fcfcf00a6e161121",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-compiled-api-keyword-gate.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-compiled-api-keyword-gate.stdout",
+    "bytes": 510,
+    "sha256": "9a6658ca022eefcc3b81d664abe309a80c00accabd8cea67bae7d9fc1cfe47d8",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-edn-read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-edn-read-board.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-help.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-help.stdout",
+    "bytes": 2667,
+    "sha256": "fd00e6c7da9b4303f1477b6877316600ee7ff461b49d2c4ea7def9866937e21b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-diagnostic-build.stderr.b64",
+    "bytes": 1944,
+    "sha256": "0cc95e3847d2772b2f6dacb9b543048b409d497018164e7da7234660583ca336",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-diagnostic-build.stdout.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-private-probe-build.stderr.b64",
+    "bytes": 908,
+    "sha256": "506f47fa7a0cedfea55b6acabd17db57ee4f62c5c683ba60edd3ff1ebfa15a9e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-private-probe-build.stdout.b64",
+    "bytes": 244,
+    "sha256": "1ad003a8a2d13216ef9f350c9c7f680c0a7e20fd868f35f6a39bab652e821c0f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-cli-private-build.stderr.b64",
+    "bytes": 23316,
+    "sha256": "8d8488446aab300d7e6a40eb5287688e4c7607b161cc95f6794df5543dbbc0a9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-cli-private-build.stdout.b64",
+    "bytes": 216,
+    "sha256": "7f02a582bdae1ca97b13487a8c6cf4afa750543a818a36ad24dd62a74617db66",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-compiled-api-keyword-gate.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-compiled-api-keyword-gate.stdout.b64",
+    "bytes": 680,
+    "sha256": "bb1aeaff87f00d5522e0c00febaf5de8a39c6b28f2277329a64e4374265e5ad6",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-edn-read-board.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-edn-read-board.stdout.b64",
+    "bytes": 9936,
+    "sha256": "d5460f9077ddc54318a8fd57ac74d1b5608d1ba5cc621da00f7abbc5cbaa7d04",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-help.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-help.stdout.b64",
+    "bytes": 3556,
+    "sha256": "598105b4440421b4c1a8637d39b7ccefb465b010b23fc1e7fc69a9ecfd277a77",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation-command.json",
+    "bytes": 816,
+    "sha256": "3af05fb943b6fe8c39ed5022e3c9bbcc13094dbcb2545bfa19fa6f8c43b0f839",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation.stdout",
+    "bytes": 18807,
+    "sha256": "17b4bd3c4964315866aaf86e07ce34cb216e9ef62ebc6c4e45eddeb5f77f5c4e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder-command.json",
+    "bytes": 2872,
+    "sha256": "c0228466b6068f1579c99d4d731c3a64a31b20b36810566248eb9cce34251b59",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder.stdout",
+    "bytes": 4724,
+    "sha256": "4b0f362c08fb15e92de0b59ce440b41f7b92eca9b13487caa4aed6f1e8ba087b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-canonical-source-hashes.json",
+    "bytes": 940,
+    "sha256": "ffee51d0773a7e4e8706651e224f90de6e2e67c41d7f7636b103231244d63e6b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-capture-manifest.json",
+    "bytes": 25852,
+    "sha256": "695c3ea8194c69b172904032b8e4cd6c5101283ff43eb8071a412eecd3ba2fd9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-preservation-proof.json",
+    "bytes": 827,
+    "sha256": "bd3d2156e15409755a64dbade2f20df8921a5458d734c262e49c29561c76e393",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-fixture-after.json",
+    "bytes": 4112,
+    "sha256": "0f339a74f77c65f7843870cdbc2448cdb604d5d50323950c67b675551dea25d9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-fixture-before.json",
+    "bytes": 4112,
+    "sha256": "0f339a74f77c65f7843870cdbc2448cdb604d5d50323950c67b675551dea25d9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-source-provenance.json",
+    "bytes": 2485,
+    "sha256": "6ce39d0fd8856efbda44ff6497da74d81f5da11892cc4715c421007aec4e77cb",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-root-peer.json",
+    "bytes": 1153,
+    "sha256": "223282305b36468a200be229fc6a8e9e301592a81d306699ab73c89b51dbd761",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-selected-proof.json",
+    "bytes": 5924,
+    "sha256": "b28a1a64a845a1452458fba173717b5138590445803d85205b74ae94facd220f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  }
+]
