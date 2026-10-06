@@ -121,7 +121,12 @@ Capture exact source SHA, installed tool versions, raw exit statuses, Kaocha
 counts, current site lists and intentional-mutation failure. Run all seven
 blocking checks; missing or skipped tools are failures. Keep current deps,
 compiler and mutation pins, zero duplication threshold, exclusions and warning
-policy unchanged. No implementation command has run for this proposal.
+policy unchanged. No proposed implementation or mutation command has run.
+The required existing baseline `bin/analyze --strict` was run separately at
+planning head `44aa8ebe5ef491f4f6619edd7a0f03c811bd00a8`: exit0, all seven
+blocking checks passed, Kaocha19tests/46assertions/0failures. Its existing
+typed.clojure deprecation output is retained. This is local baseline evidence,
+not native planning approval, reviewed breakdown or lawful ready admission.
 
 The installed Rheos 1.1.1 rejects the authoritative `openhax.kanban.edn` via
 `JSON.parse` (exit1). Reading `openhax.kanban.json` succeeds as a diagnostic mirror

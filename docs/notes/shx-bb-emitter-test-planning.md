@@ -39,7 +39,34 @@ Rheos nor files a new upstream gap without checking the actual owner EDN contrac
 Verification is documentary scope/preservation plus the actual upstream Receipt
 River consumer on the new owned receipt(s). Existing Shx has no local receipt
 consumer; upstream RR source is pinned in the private evidence note. Historical
-ledger validity is not claimed. No implementation tests, analyzer suite, mutation
-suite, native review, ready event, paid capacity, source adoption or live service
-operation is claimed. Raw evidence is losslessly encoded; original receipts/events
+ledger validity is not claimed. No new implementation or mutation suite, native review, ready event, paid
+capacity, source adoption or live service operation is claimed. The required existing
+baseline analyzer gate is recorded below separately from the proposed future tests. Raw evidence is losslessly encoded; original receipts/events
 remain exact, and no original archived note needs to be captured or evaluated.
+
+## Required existing baseline gate — 2026-10-06
+
+Shx AGENTS requires `bin/analyze` before reporting work done. Planning is not
+exempt from that explicit obligation. Actual unmodified `bin/analyze --strict`
+ran once at planning head `44aa8ebe5ef491f4f6619edd7a0f03c811bd00a8`,
+2026-10-06T19:45:06Z through 19:47:56Z, exit0. All seven blocking checks passed:
+clj-kondo0errors/0warnings, Splint14files/0stylewarnings, cljfmtclean, LSPunused
+publicvarsnone, jscpd0clones, typed.clojureOK, Kaocha19tests/46assertions/0failures.
+The existing integer-object-ID deprecation message remains visible, as already
+identified in `docs/design/shx1-qualification-constraints.md`; no zero-output-warning
+claim is made. No suppression, ratchet, tool pin or source fix was introduced.
+
+This is existing baseline qualification, not execution of the proposed bb/CLI/Bash
+implementation tests or mutation experiments. The staged source/config/test/tool-policy
+inputs remain unchanged across the evidence-only successor commit, so this gate is
+not repeated. Native review, breakdown, authoritative Rheos compatibility and lawful
+ready admission remain outstanding. The separate source-sync candidate preserves
+accepted history; no fresh gate execution on that candidate is inferred.
+
+Private tool copies match pinned kondo/LSP/bb versions; official Clojure CLI
+1.12.3.1577 archive SHA256 matches the existing bootstrap's pinned digest. Node
+24.14.1 and Java21 were verified. JVM/native/Node heaps are bounded, JVM2processors;
+Maven, Gitlibs, npm, analyzer, JVM-user, XDG and temp paths are private. HOME was
+not repurposed, no watcher/server/port was started, and no global config was written.
+Raw stdout/stderr, complete argv/environment scope, time/exit and source/tool pins
+are losslessly captured.

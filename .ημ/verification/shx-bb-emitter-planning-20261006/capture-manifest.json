@@ -264,5 +264,180 @@
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "encoding": "base64",
     "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-cli-download.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-final-mirror-task.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-final-mirror-task.stdout",
+    "bytes": 11182,
+    "sha256": "356255ae3c8b93bca48d9b1eae15e20d55e64953cd707840cf1780c31e79f9ad",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-command.json",
+    "bytes": 866,
+    "sha256": "56e652cd8d0a3e41c78b467ab8ed4f50a795eae15d0809daa039f73b110d43c1",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-validation.edn",
+    "bytes": 9816,
+    "sha256": "5ad36aee5618fedd08fff83ea17a6decb732df7605f29f9fc76b8c84d0e3197e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-owning-consumer-last2-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-private-tool-provenance.json",
+    "bytes": 1757,
+    "sha256": "8a80fa35bd523b7fa9b88a586653ac94adb1d1e3569dfceea12d5912f8d01873",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-command.json",
+    "bytes": 2855,
+    "sha256": "f194bca99310c707576b25d704e5f43160aac801852b09b669ed13ebbf450c43",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-validation.edn",
+    "bytes": 4808,
+    "sha256": "9a174f0c1b90c2edabc74f8faa0ec9bb948f892df7e674e530477277987f52f3",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-receipt-builder-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-bb.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-bb.stdout",
+    "bytes": 19,
+    "sha256": "8730c3a60733d9b713f3cfee7224926659d214a19494137103c46975acaf8d38",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clj-kondo.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clj-kondo.stdout",
+    "bytes": 22,
+    "sha256": "a8e7193f0d919edc0fea10570718d78163fe5c55bfad20146d8a79f98d422d3e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure-lsp.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure-lsp.stdout",
+    "bytes": 53,
+    "sha256": "fcad9e5ff6574f2211b14cf981744b4e629a0c90899f672200599dc2c2b7cbaa",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-clojure.stdout",
+    "bytes": 596,
+    "sha256": "5b46a5b5e756ba7d28f9be8ed03f025deffd8b82cbe036b632ddbdc89f04a477",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-java.stderr",
+    "bytes": 349,
+    "sha256": "51af6ccba3c59ee902803ba30f11e4155eae9667ad3bc0c192abc144c30a3f9d",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-java.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-node.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "gate-version-node.stdout",
+    "bytes": 9,
+    "sha256": "50956a2c27b1a442408131f86103ff1df8a7f4a29502df81d216ba19e2c2f4a6",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate-command.json",
+    "bytes": 1641,
+    "sha256": "e3f07f6543d4d6b04d33012a07cd3dd104d3b733f7827e3f0ba886b87b9bee4d",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate.stderr",
+    "bytes": 7657,
+    "sha256": "4e236e8109187f103fc9fd51b7b6b6a403d0e0fe2cd70513e42c7216f5841286",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "strict-gate.stdout",
+    "bytes": 1325,
+    "sha256": "36a4d00efe7a405e1fc4e40b540d6e98c9b99bf2ca6a1c935e63f89b126cfb5e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
   }
 ]

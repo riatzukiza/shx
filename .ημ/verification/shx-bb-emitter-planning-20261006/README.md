@@ -33,8 +33,26 @@ All raw stdout/stderr/JSON and commands are retained byte-for-byte in private
 captures and lossless base64 here. Decode with strict base64, then compare each
 manifest byte count/SHA256. Raw whitespace is preserved; logs are not edited for
 Git hygiene. `preservation-proof.json` records narrow actual proofs and limits.
-Implementation unit/analyzer/mutation suites did not run; exact future commands
-and intentional mutation/red/green criteria are part of the proposal. Root peer
+The proposed implementation and mutation suites did not run; exact future
+commands and intentional mutation/red/green criteria are part of the proposal.
+The required existing baseline `bin/analyze --strict` ran once at44aa8ebe and
+passed all seven checks, including19tests/46assertions/0failures. Its inherited
+typed.clojure deprecation message remains raw, not a zero-output-warning claim. Root peer
 must inspect the final commit/diff before publication; native planning and lawful
 ready admission remain blocked. No bots, services, secrets, global caches,
 settings, default branches, workflow pins, paid capacity or foreign lanes change.
+
+## Baseline qualification addendum
+
+The initial planning-only preparation did not run the explicit AGENTS gate;
+that omission was caught in root peer review. The unchanged existing strict gate
+was subsequently run in private bounded tool/cache/temp roots. `strict-gate-command.json`
+records source head, actual argv/environment overrides, timing and exit0.
+`strict-gate.stdout` / `.stderr` preserve every byte including ANSI/whitespace,
+dependency downloads and the existing typed.clojure deprecation. SHA256 of stdout
+is `36a4d00efe7a405e1fc4e40b540d6e98c9b99bf2ca6a1c935e63f89b126cfb5e`. The source-sync candidate was not separately tested.
+
+An appended supported typed `:test-run` receipt and reflection record this result;
+the previous receipt and all38 original captures remain unchanged. New source
+implementation and mutation experiments remain held. This local required gate
+does not create native approval/rounds or repair the authoritative EDN load refusal.
