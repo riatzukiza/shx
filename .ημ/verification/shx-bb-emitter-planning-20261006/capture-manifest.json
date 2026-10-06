@@ -551,5 +551,271 @@
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "encoding": "base64",
     "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-diagnostic-build.stderr",
+    "bytes": 1456,
+    "sha256": "3c749beb58934bbfa6133f12fe4d053baeba51222da223ef246e021e9f964452",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-diagnostic-build.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-private-probe-build.stderr",
+    "bytes": 679,
+    "sha256": "5fb8d41bf032e809ac3755bb07c3f324e1e47f3e3de20b8759b276a7e294ad05",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-api-private-probe-build.stdout",
+    "bytes": 181,
+    "sha256": "b9a6e2b4a3070bc38d8ddcea65f3dd9f321adcb7f3ca7d00c1a937ef48f85603",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-cli-private-build.stderr",
+    "bytes": 17487,
+    "sha256": "308e11974fcc65ad189ca78ec5214789089b6367d6c5c244eb6fdfff2d9c862c",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-cli-private-build.stdout",
+    "bytes": 161,
+    "sha256": "582f5abe652e49b0722afe9da19f3eb1fecd2074db3435a9fcfcf00a6e161121",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-compiled-api-keyword-gate.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-canonical-compiled-api-keyword-gate.stdout",
+    "bytes": 510,
+    "sha256": "9a6658ca022eefcc3b81d664abe309a80c00accabd8cea67bae7d9fc1cfe47d8",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-edn-read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-edn-read-board.stdout",
+    "bytes": 7450,
+    "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-help.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-decoded-immutable-artifact-help.stdout",
+    "bytes": 2667,
+    "sha256": "fd00e6c7da9b4303f1477b6877316600ee7ff461b49d2c4ea7def9866937e21b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-diagnostic-build.stderr.b64",
+    "bytes": 1944,
+    "sha256": "0cc95e3847d2772b2f6dacb9b543048b409d497018164e7da7234660583ca336",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-diagnostic-build.stdout.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-private-probe-build.stderr.b64",
+    "bytes": 908,
+    "sha256": "506f47fa7a0cedfea55b6acabd17db57ee4f62c5c683ba60edd3ff1ebfa15a9e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-api-private-probe-build.stdout.b64",
+    "bytes": 244,
+    "sha256": "1ad003a8a2d13216ef9f350c9c7f680c0a7e20fd868f35f6a39bab652e821c0f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-cli-private-build.stderr.b64",
+    "bytes": 23316,
+    "sha256": "8d8488446aab300d7e6a40eb5287688e4c7607b161cc95f6794df5543dbbc0a9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-cli-private-build.stdout.b64",
+    "bytes": 216,
+    "sha256": "7f02a582bdae1ca97b13487a8c6cf4afa750543a818a36ad24dd62a74617db66",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-compiled-api-keyword-gate.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-canonical-compiled-api-keyword-gate.stdout.b64",
+    "bytes": 680,
+    "sha256": "bb1aeaff87f00d5522e0c00febaf5de8a39c6b28f2277329a64e4374265e5ad6",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-edn-read-board.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-edn-read-board.stdout.b64",
+    "bytes": 9936,
+    "sha256": "d5460f9077ddc54318a8fd57ac74d1b5608d1ba5cc621da00f7abbc5cbaa7d04",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-help.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-original-immutable-artifact-help.stdout.b64",
+    "bytes": 3556,
+    "sha256": "598105b4440421b4c1a8637d39b7ccefb465b010b23fc1e7fc69a9ecfd277a77",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation-command.json",
+    "bytes": 816,
+    "sha256": "3af05fb943b6fe8c39ed5022e3c9bbcc13094dbcb2545bfa19fa6f8c43b0f839",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-four-rows-validation.stdout",
+    "bytes": 18807,
+    "sha256": "17b4bd3c4964315866aaf86e07ce34cb216e9ef62ebc6c4e45eddeb5f77f5c4e",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder-command.json",
+    "bytes": 2872,
+    "sha256": "c0228466b6068f1579c99d4d731c3a64a31b20b36810566248eb9cce34251b59",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-own-observation-builder.stdout",
+    "bytes": 4724,
+    "sha256": "4b0f362c08fb15e92de0b59ce440b41f7b92eca9b13487caa4aed6f1e8ba087b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-canonical-source-hashes.json",
+    "bytes": 940,
+    "sha256": "ffee51d0773a7e4e8706651e224f90de6e2e67c41d7f7636b103231244d63e6b",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-capture-manifest.json",
+    "bytes": 25852,
+    "sha256": "695c3ea8194c69b172904032b8e4cd6c5101283ff43eb8071a412eecd3ba2fd9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-preservation-proof.json",
+    "bytes": 827,
+    "sha256": "bd3d2156e15409755a64dbade2f20df8921a5458d734c262e49c29561c76e393",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-fixture-after.json",
+    "bytes": 4112,
+    "sha256": "0f339a74f77c65f7843870cdbc2448cdb604d5d50323950c67b675551dea25d9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-fixture-before.json",
+    "bytes": 4112,
+    "sha256": "0f339a74f77c65f7843870cdbc2448cdb604d5d50323950c67b675551dea25d9",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-owner-shx-source-provenance.json",
+    "bytes": 2485,
+    "sha256": "6ce39d0fd8856efbda44ff6497da74d81f5da11892cc4715c421007aec4e77cb",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-root-peer.json",
+    "bytes": 1153,
+    "sha256": "223282305b36468a200be229fc6a8e9e301592a81d306699ab73c89b51dbd761",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
+  },
+  {
+    "capture": "accepted-rheos-selected-proof.json",
+    "bytes": 5924,
+    "sha256": "b28a1a64a845a1452458fba173717b5138590445803d85205b74ae94facd220f",
+    "encoding": "base64",
+    "container": "native-captures.base64.json"
   }
 ]

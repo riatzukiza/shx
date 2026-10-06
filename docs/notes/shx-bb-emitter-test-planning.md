@@ -38,8 +38,9 @@ diagnostic only; no transitions or gate validation. Current accepted Rheos `ef3c
 implements/documents EDN. Root canonical shape/config API evidence preserves
 `:extends` / `:build-gate-commands` in unchanged Shx EDN. Existing
 [Eta Mu239](https://github.com/open-hax/eta-mu/issues/239) tracks stale distribution
-predating EDN PR158. Qualified current artifact consumption and full CLI readback
-remain unverified; no new source implementation issue or readiness is inferred.
+predating EDN PR158. Canonical private CLI build/help/authoritative EDN readback
+now pass as attributed below. Qualified published artifact consumption remains
+held; no new source implementation issue or readiness is inferred.
 
 Verification is documentary scope/preservation plus the actual upstream Receipt
 River consumer on the new owned receipt(s). Existing Shx has no local receipt
@@ -64,8 +65,8 @@ claim is made. No suppression, ratchet, tool pin or source fix was introduced.
 This is existing baseline qualification, not execution of the proposed bb/CLI/Bash
 implementation tests or mutation experiments. The staged source/config/test/tool-policy
 inputs remain unchanged across the evidence-only successor commit, so this gate is
-not repeated. Native review, breakdown, qualified current Rheos artifact consumption/full CLI readback and lawful
-ready admission remain outstanding. The separate source-sync candidate preserves
+not repeated. Native review, breakdown, qualified published Rheos artifact
+consumption and lawful ready admission remain outstanding. The separate source-sync candidate preserves
 accepted history; no fresh gate execution on that candidate is inferred.
 
 Private tool copies match pinned kondo/LSP/bb versions; official Clojure CLI
@@ -83,6 +84,50 @@ routed it toward owning source implementation. Source/API support is already
 present at the accepted Rheos pin above. Current Git source and fresh open issue239
 confirm the distribution distinction; root's canonical API probe is cited as
 root-owned evidence. A new supported `:adjudication` receipt preserves the earlier
-record and corrects this attribution. No current canonical full CLI build/readback
-or board transition is claimed, and no alternate config/parser/workflow is added.
+record and corrects this attribution. At this correction point full CLI
+build/readback remained unverified; subsequent attributed evidence below records
+that result. No board transition is claimed, and no alternate config/parser/
+workflow is added.
 Existing required gate remains bound to actual44aa8ebe with unchanged gate inputs.
+
+## Attributed accepted-source canonical CLI observation
+
+Rheos owner-lane execution at accepted source
+`ef3c4abf1ea75199486f693e9470df3fec88dd49` built the unchanged canonical CLI:
+exit0, 106files/47compiled/0compilerwarnings. The immutable artifact is
+2,114,115bytes, SHA256
+`33efe2e97202abe7df28b65fb20fbabb78fd910049ed60f301d112a895c7633b`.
+Native CLI help and authoritative unchanged copied Shx EDN `read-board` both
+exit0; board total31. Fixture source is earlier planning head
+`44aa8ebe5ef491f4f6619edd7a0f03c811bd00a8`; all33 fixture files remain exact and
+the authoritative EDN bytes equal this candidate. This does not claim the latest
+authored card body has acquired planning admission.
+
+Compiled canonical `load-config` / `resolve-configured-projects` / `resolve-fsm`
+APIs retain keyword `:build-gate`, commands `["bin/analyze --strict"]`,
+`:extends :promethean` and the private fixture cwd. No configured gate command,
+lifecycle transition, installed distribution replacement, publication or consumer
+pin update ran. Node24.14.1 is local preparation; Node22 release qualification is
+not supplied. The initial diagnostic-build exit1 and separate corrected private
+probe-build exit0 are both retained; the latter's shadow-cljs installation warning
+is preserved. No blanket all-command or all-output-warning PASS is asserted.
+
+Root independently verified80 raw streams/40 commands, fixture equality and
+tracked owner source diff0. This lane independently verified their hashes/sizes
+and copied six selected command pairs, original encoded containers, decoded raw
+streams, full original manifest, fixture manifests and provenance into lossless
+captures. Exactly one terminal LF in an original base64 container is permitted
+for decode; decoded raw bytes are preserved. Attribution and exact argv/cwd/exit
+are recorded in `accepted-rheos-selected-proof.json` within the capture container.
+Root peer proof provenance is
+`/home/err/.codex/parallel-goal/personal-root-20261006/pr115-current-binding/.ημ/verification/backlog-advance-20261006-1929/rheos-ef3-shx-root-peer.json`.
+This lane did not execute owner scripts/artifacts or mutate that lane.
+
+The former local full-CLI-readback hold is resolved. Existing
+[Eta Mu239](https://github.com/open-hax/eta-mu/issues/239) still owns qualified
+published-artifact distribution/consumption. Native planning review, reviewed
+breakdown and lawful ready admission remain held. Historical installed-CLI
+refusal, previous receipts and all79 prior captures remain exact. The existing
+strict gate stays bound to actual44aa8ebe; unchanged tracked gate inputs require
+no repeat. An appended owning-package-supported `:observation` records this
+chronological update without changing operational frontmatter or event bytes.

@@ -10,11 +10,11 @@
   "old_receipts_entire_prefix_exact": true,
   "old_receipts_bytes": 132196,
   "old_receipts_sha256": "4ef03f25f8088451e0d641c758472a716a41490e8ad1eb225d94ca1f493992c3",
-  "new_owned_receipts": 3,
+  "new_owned_receipts": 4,
   "owning_RR_validate_line_ok": true,
   "consumer_pin": "154440f3c997aa9208194bba59b5edbef3654f78",
   "tracked_source_tests_workflows_config_and_events_no_diff": true,
-  "lossless_capture_count": 79,
+  "lossless_capture_count": 117,
   "authoritative_EDN_read_exit": 1,
   "diagnostic_JSON_mirror_read_exit": 0,
   "ready_transition_or_gate_validation": "not attempted or claimed",
@@ -49,10 +49,175 @@
     "installed_bundled_Rheos_version": "0.1.0",
     "current_source_EDN_support": "present",
     "canonical_API_preserves_Shx_keyword_gate_config": "root-owned verified probe; not rerun by this lane",
-    "canonical_current_full_CLI_readback": "unverified; no guessed result",
-    "blocker": "qualified distribution/artifact consumption and full CLI readback",
+    "canonical_current_full_CLI_readback": "historical correction at508: unverified then; subsequent attributed observation below resolves local readback",
+    "blocker": "qualified published distribution/artifact consumption, native planning/breakdown/lawfulready",
     "new_source_feature_issue": "none",
     "previous_refusal_receipts_capture_bytes": "preserved"
   },
-  "correction_operator_note": "First editable-doc correction command had a Path/string typo after the card update but before ledger append; completed remaining edits without rewriting any historical receipts or cross-lane effect."
+  "correction_operator_note": "First editable-doc correction command had a Path/string typo after the card update but before ledger append; completed remaining edits without rewriting any historical receipts or cross-lane effect.",
+  "four_owned_rows_actual_RR_consumer_valid": true,
+  "prior_79_captures_encoded_values_and_manifest_exact": true,
+  "prior_508_receipt_and_reflection_entire_prefix_exact": true,
+  "attributed_accepted_source_canonical_CLI_observation": {
+    "attribution": "Rheos owner lane execution, root independent peer, and this lane read-only hash/stream verification; no re-execution",
+    "source_pin": "ef3c4abf1ea75199486f693e9470df3fec88dd49",
+    "artifact_sha256": "33efe2e97202abe7df28b65fb20fbabb78fd910049ed60f301d112a895c7633b",
+    "artifact_bytes": 2114115,
+    "owner_manifest_sha256": "695c3ea8194c69b172904032b8e4cd6c5101283ff43eb8071a412eecd3ba2fd9",
+    "all_owner_streams_strict_verified": 80,
+    "single_terminal_LF_only_removed_for_decode": true,
+    "all33_fixture_before_after_exact": true,
+    "current_candidate_authoritative_EDN_config_SHA256_same_as_fixture": true,
+    "fixture_source_planning_head": "44aa8ebe5ef491f4f6619edd7a0f03c811bd00a8",
+    "selected_commands": [
+      {
+        "label": "canonical-cli-private-build",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/node-runtime/node_modules/shadow-cljs/cli/runner.js",
+          "--force-spawn",
+          "release",
+          "cli"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/source",
+        "at": "2026-10-06T19:52:54.674453+00:00",
+        "exit": 0,
+        "stdout": {
+          "capture": "canonical-cli-private-build.stdout.b64",
+          "bytes": 161,
+          "sha256": "582f5abe652e49b0722afe9da19f3eb1fecd2074db3435a9fcfcf00a6e161121"
+        },
+        "stderr": {
+          "capture": "canonical-cli-private-build.stderr.b64",
+          "bytes": 17487,
+          "sha256": "308e11974fcc65ad189ca78ec5214789089b6367d6c5c244eb6fdfff2d9c862c"
+        }
+      },
+      {
+        "label": "canonical-api-diagnostic-build",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/node-runtime/node_modules/shadow-cljs/cli/runner.js",
+          "--force-spawn",
+          "--config-merge",
+          "{:source-paths [\"/tmp/rheos-edn-upstream-gap-20261006/diagnostic\"] :builds {:edn-diagnostic {:target :node-script :output-to \"/tmp/rheos-edn-upstream-gap-20261006/artifact/edn-diagnostic.cjs\" :main rheos-edn-diagnostic/main :compiler-options {:optimizations :simple}}}}",
+          "release",
+          "edn-diagnostic"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/source",
+        "at": "2026-10-06T19:56:27.841199+00:00",
+        "exit": 1,
+        "stdout": {
+          "capture": "canonical-api-diagnostic-build.stdout.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "capture": "canonical-api-diagnostic-build.stderr.b64",
+          "bytes": 1456,
+          "sha256": "3c749beb58934bbfa6133f12fe4d053baeba51222da223ef246e021e9f964452"
+        }
+      },
+      {
+        "label": "canonical-api-private-probe-build",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/node-runtime/node_modules/shadow-cljs/cli/runner.js",
+          "--force-spawn",
+          "release",
+          "edn-diagnostic"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/api-build",
+        "at": "2026-10-06T19:57:16.235316+00:00",
+        "exit": 0,
+        "stdout": {
+          "capture": "canonical-api-private-probe-build.stdout.b64",
+          "bytes": 181,
+          "sha256": "b9a6e2b4a3070bc38d8ddcea65f3dd9f321adcb7f3ca7d00c1a937ef48f85603"
+        },
+        "stderr": {
+          "capture": "canonical-api-private-probe-build.stderr.b64",
+          "bytes": 679,
+          "sha256": "5fb8d41bf032e809ac3755bb07c3f324e1e47f3e3de20b8759b276a7e294ad05"
+        }
+      },
+      {
+        "label": "canonical-compiled-api-keyword-gate",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/artifact/edn-diagnostic.cjs"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/shx-fixture",
+        "at": "2026-10-06T19:58:04.415786+00:00",
+        "exit": 0,
+        "stdout": {
+          "capture": "canonical-compiled-api-keyword-gate.stdout.b64",
+          "bytes": 510,
+          "sha256": "9a6658ca022eefcc3b81d664abe309a80c00accabd8cea67bae7d9fc1cfe47d8"
+        },
+        "stderr": {
+          "capture": "canonical-compiled-api-keyword-gate.stderr.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "label": "immutable-artifact-help",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/artifact/rheos-ef3c4abf/cli.cjs",
+          "help"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/shx-fixture",
+        "at": "2026-10-06T19:58:04.598460+00:00",
+        "exit": 0,
+        "stdout": {
+          "capture": "immutable-artifact-help.stdout.b64",
+          "bytes": 2667,
+          "sha256": "fd00e6c7da9b4303f1477b6877316600ee7ff461b49d2c4ea7def9866937e21b"
+        },
+        "stderr": {
+          "capture": "immutable-artifact-help.stderr.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "label": "immutable-artifact-edn-read-board",
+        "command": [
+          "node",
+          "/tmp/rheos-edn-upstream-gap-20261006/artifact/rheos-ef3c4abf/cli.cjs",
+          "read-board",
+          "--config",
+          "/tmp/rheos-edn-upstream-gap-20261006/shx-fixture/openhax.kanban.edn"
+        ],
+        "cwd": "/tmp/rheos-edn-upstream-gap-20261006/shx-fixture",
+        "at": "2026-10-06T19:58:11.965171+00:00",
+        "exit": 0,
+        "stdout": {
+          "capture": "immutable-artifact-edn-read-board.stdout.b64",
+          "bytes": 7450,
+          "sha256": "9aacf97ad80df27de3cffe7102bdf0b5ac48983deee26f9369386baa1d0dc901"
+        },
+        "stderr": {
+          "capture": "immutable-artifact-edn-read-board.stderr.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    ],
+    "execution_limits": {
+      "no_gate_commands_executed": true,
+      "no_transition_executed": true,
+      "local_Node24_14_1_only": true,
+      "Node22_release_qualification": false,
+      "package_publish_or_consumer_pin_update": false
+    },
+    "root_peer_capture_sha256": "223282305b36468a200be229fc6a8e9e301592a81d306699ab73c89b51dbd761",
+    "local_observation_receipt": "295597d5-198f-42e6-8571-324a383e2961",
+    "ready_or_release_qualification": false,
+    "gate_or_transition_execution": false,
+    "required_Shx_strict_gate_repeat": false,
+    "prior_stale_distribution_refusal_preserved": true
+  }
 }
