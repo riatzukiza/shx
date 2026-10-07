@@ -1,0 +1,68 @@
+[
+  {
+    "source_path": "AGENTS.md",
+    "path": "source-evidence/AGENTS.md.b64",
+    "bytes": 8867,
+    "sha256": "fbdeedb6c0bf7dac694e15142c7421af41a35f65dfcb3346ae1f4f16d5e95b08"
+  },
+  {
+    "source_path": "docs/kanban/writing-cards.md",
+    "path": "source-evidence/docs/kanban/writing-cards.md.b64",
+    "bytes": 19852,
+    "sha256": "3891d90bd0b2f1b48f1fef033439c77ee3db951fc5f03a8913c03a3ec8ed8f74"
+  },
+  {
+    "source_path": "docs/design/shx1-qualification-constraints.md",
+    "path": "source-evidence/docs/design/shx1-qualification-constraints.md.b64",
+    "bytes": 9367,
+    "sha256": "9433e63f6c0a602f9724bb89236c70f5186faa14880ece3604f66f46b21be41b"
+  },
+  {
+    "source_path": "docs/static-analysis.md",
+    "path": "source-evidence/docs/static-analysis.md.b64",
+    "bytes": 7493,
+    "sha256": "ffa1cd53d72cc5f921d613b757cc44d23de9d79ee8653a1923851dcfc9ffb873"
+  },
+  {
+    "source_path": "bin/analyze",
+    "path": "source-evidence/bin/analyze.b64",
+    "bytes": 8923,
+    "sha256": "88fa348d2ce5d36594aaa8ef98bf0bebd0deb058422082b0172cbaf334d2a503"
+  },
+  {
+    "source_path": "bb.edn",
+    "path": "source-evidence/bb.edn.b64",
+    "bytes": 2536,
+    "sha256": "929df10ca9f80a04414804c8bf9c0c4b8fe1b7f4c90d3deaf44544a5f61512c0"
+  },
+  {
+    "source_path": "deps.edn",
+    "path": "source-evidence/deps.edn.b64",
+    "bytes": 2740,
+    "sha256": "19fe75e7a52e5608f04f8de1a4811b8bf54b1956eafecd9b21dc270dd9729dfa"
+  },
+  {
+    "source_path": "tests.edn",
+    "path": "source-evidence/tests.edn.b64",
+    "bytes": 14,
+    "sha256": "261374d70fd3ef30672d3536b8b19e0f02faa849245d0c04e3d1669af56c63c3"
+  },
+  {
+    "source_path": ".github/workflows/static-analysis.yml",
+    "path": "source-evidence/.github/workflows/static-analysis.yml.b64",
+    "bytes": 3353,
+    "sha256": "c4e6795df4af8cbdc61c9b4b41f43a28d9cc6938e293cf1fe35c7244945ff8d6"
+  },
+  {
+    "source_path": ".github/workflows/test.yml",
+    "path": "source-evidence/.github/workflows/test.yml.b64",
+    "bytes": 564,
+    "sha256": "a61e70472b75a57d54b583a3218eb3030629af0439c79fc145d8c0cee6148137"
+  },
+  {
+    "source_path": "test/analyze_regression.sh",
+    "path": "source-evidence/test/analyze_regression.sh.b64",
+    "bytes": 4605,
+    "sha256": "bea0c921149ec279c0f7fbb33b8db34f8e1a65968e7962aa11ec8901a27a67e9"
+  }
+]

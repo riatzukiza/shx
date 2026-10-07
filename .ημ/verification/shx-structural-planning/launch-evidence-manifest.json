@@ -1,0 +1,14 @@
+[
+  {
+    "path": "launch-evidence/clojure.b64",
+    "bytes": 423,
+    "sha256": "4f4f05954cd220d3f7e4c155418237825d8fad6b4887339dbf92b7e6b41bf223",
+    "purpose": "Launch-only isolation, not candidate analyzer implementation"
+  },
+  {
+    "path": "launch-evidence/clojure-lsp.b64",
+    "bytes": 368,
+    "sha256": "08fcd24ed8269a37b0e72e32a34f97b15d11779974d09f4e0e5840003837a259",
+    "purpose": "Launch-only isolation, not candidate analyzer implementation"
+  }
+]

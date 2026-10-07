@@ -1,0 +1,10 @@
+{
+  "gate": "Unchanged bin/analyze --strict",
+  "clojure": "Launch-only JVM heap/CPU/user.home/tmp and Maven localrepo flags; aliases and selectors unchanged",
+  "clojure-lsp": "Native help-supported log-path and official cache-path setting; no source filters or linter changes",
+  "documentation": "https://clojure-lsp.io/settings/",
+  "npm": "npm_config_cache/prefix private",
+  "HOME_and_CODEX_HOME": "unchanged",
+  "shared_tools": "Existing pinned binaries read-only",
+  "source_changes": "None"
+}

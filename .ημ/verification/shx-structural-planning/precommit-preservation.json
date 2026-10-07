@@ -1,0 +1,22 @@
+{
+  "base": "f4ee133dcf1650c7eafb623ef084f62417252477",
+  "inherited_entries": 113,
+  "all_other_entries_exact": 111,
+  "prefixes": [
+    {
+      "path": "kanban/add-the-structural-smell-report-and-a-namespace-law-boundary-check-ry-check.md",
+      "original_bytes": 5548,
+      "original_sha256": "8bac56ded9958b3b142d4c0872b8deaa9f42b0e16dc8082e56974c85758f1758",
+      "append_bytes": 4222,
+      "exact": true
+    },
+    {
+      "path": "receipts.edn",
+      "original_bytes": 132196,
+      "original_sha256": "4ef03f25f8088451e0d641c758472a716a41490e8ad1eb225d94ca1f493992c3",
+      "append_bytes": 2660,
+      "exact": true
+    }
+  ],
+  "production_tests_gate_configs_workflows_engine_history": "Exact inherited identities; no checker or state implementation"
+}

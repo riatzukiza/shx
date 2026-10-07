@@ -1,0 +1,6 @@
+{
+  "attempt1": "Inherited JAVA_OPTS initial3g exceeds own isolated max768m; actual startup failure retained",
+  "cause": "Own launch environment omission, not source/gate defect",
+  "correction": "Task-local JAVA_OPTS and CLJ_JVM_OPTS set bounded matching initial/max; HOME/CODEX_HOME/global environment unchanged",
+  "rerun_scope": "Actual unchanged bin/analyze --strict, same complete source and selectors"
+}
