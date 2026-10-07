@@ -1,0 +1,281 @@
+[
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "AGENTS.md",
+    "path": "source-archives/00.b64",
+    "bytes": 8867,
+    "sha256": "fbdeedb6c0bf7dac694e15142c7421af41a35f65dfcb3346ae1f4f16d5e95b08",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "kanban/port-shx-to-cljc.md",
+    "path": "source-archives/01.b64",
+    "bytes": 1029,
+    "sha256": "cdeee9eaf734091f6342b071509448e100f5fee1358adb1d207e64c0e7fc9270",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "docs/kanban/writing-cards.md",
+    "path": "source-archives/02.b64",
+    "bytes": 19852,
+    "sha256": "3891d90bd0b2f1b48f1fef033439c77ee3db951fc5f03a8913c03a3ec8ed8f74",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "docs/design/shx1-qualification-constraints.md",
+    "path": "source-archives/03.b64",
+    "bytes": 9367,
+    "sha256": "9433e63f6c0a602f9724bb89236c70f5186faa14880ece3604f66f46b21be41b",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "deps.edn",
+    "path": "source-archives/04.b64",
+    "bytes": 2740,
+    "sha256": "19fe75e7a52e5608f04f8de1a4811b8bf54b1956eafecd9b21dc270dd9729dfa",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "bb.edn",
+    "path": "source-archives/05.b64",
+    "bytes": 2536,
+    "sha256": "929df10ca9f80a04414804c8bf9c0c4b8fe1b7f4c90d3deaf44544a5f61512c0",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "tests.edn",
+    "path": "source-archives/06.b64",
+    "bytes": 14,
+    "sha256": "261374d70fd3ef30672d3536b8b19e0f02faa849245d0c04e3d1669af56c63c3",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "heretic.edn",
+    "path": "source-archives/07.b64",
+    "bytes": 3575,
+    "sha256": "4db28a7da16095746ef1be4e6bd48b3ea825ced92496785199549fe9cd14049d",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "bin/analyze",
+    "path": "source-archives/08.b64",
+    "bytes": 8923,
+    "sha256": "88fa348d2ce5d36594aaa8ef98bf0bebd0deb058422082b0172cbaf334d2a503",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "bin/mutate",
+    "path": "source-archives/09.b64",
+    "bytes": 2107,
+    "sha256": "845547b99c66374b382d122620ae7e9fb747432c08361fa33ac250d635423c5e",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": ".github/scripts/shx-review-evidence.sh",
+    "path": "source-archives/10.b64",
+    "bytes": 6104,
+    "sha256": "007e3b353870a529ffda0918be9f9acfb608a6e4c7843cfb95d62b6917813f6e",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": ".github/workflows/eta-mu-evidence-review.yml",
+    "path": "source-archives/11.b64",
+    "bytes": 2434,
+    "sha256": "8176c53301ac6aa3fc746233356fd2dcb8c6d6997229120f04e814a77c11e0a5",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": ".github/workflows/static-analysis.yml",
+    "path": "source-archives/12.b64",
+    "bytes": 3353,
+    "sha256": "c4e6795df4af8cbdc61c9b4b41f43a28d9cc6938e293cf1fe35c7244945ff8d6",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": ".github/workflows/test.yml",
+    "path": "source-archives/13.b64",
+    "bytes": 564,
+    "sha256": "a61e70472b75a57d54b583a3218eb3030629af0439c79fc145d8c0cee6148137",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/cli.clj",
+    "path": "source-archives/14.b64",
+    "bytes": 4949,
+    "sha256": "37dab649673fc727d331d49dd90e1f34027f5680f0813ff24139beca67045b00",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/domain/merge.clj",
+    "path": "source-archives/15.b64",
+    "bytes": 1978,
+    "sha256": "4dabf65303b5e1e4f7676322e2db5422821ec20608dc9cc51289af3b292f4ff7",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/infra/config.clj",
+    "path": "source-archives/16.b64",
+    "bytes": 3205,
+    "sha256": "feaea2f3919aef785b21fe73fb89b72766b4cc9c9f7c607bb04cc407bfeba46f",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/infra/fs.clj",
+    "path": "source-archives/17.b64",
+    "bytes": 447,
+    "sha256": "51702d86e86d416ca60962627266bdf9f73995ec9b2f357921b6b6762bc002c0",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/law/config.clj",
+    "path": "source-archives/18.b64",
+    "bytes": 1367,
+    "sha256": "ac9f9500dfe8e4023563052f687231491423bac9933dee0b6726c8ce1b70a476",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/law/ir.clj",
+    "path": "source-archives/19.b64",
+    "bytes": 2587,
+    "sha256": "6e9e151a2a728ab2483df174b16b821ee654097c4e3b057466275d12109b2666",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/shape/bash.clj",
+    "path": "source-archives/20.b64",
+    "bytes": 2489,
+    "sha256": "3bf348b719076affe4e892c36bfd659b623a0ac9a6d401d02c06149e234caf8b",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/shape/bb.clj",
+    "path": "source-archives/21.b64",
+    "bytes": 3237,
+    "sha256": "50c4603d6def8438f977910ff9f83c875baee4844d2594f07d0c098d03f3ebc6",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "src/shx/shape/quote.clj",
+    "path": "source-archives/22.b64",
+    "bytes": 1422,
+    "sha256": "8ba8adc7393725e9a9df303c524f4ac205bc1e0585887703a18bfb9c947b9550",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/analyze_regression.sh",
+    "path": "source-archives/23.b64",
+    "bytes": 4605,
+    "sha256": "bea0c921149ec279c0f7fbb33b8db34f8e1a65968e7962aa11ec8901a27a67e9",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/mutate_regression.sh",
+    "path": "source-archives/24.b64",
+    "bytes": 4412,
+    "sha256": "91795d10ea16b3fddf4d28d59b829bbb6fe03cad3033ff603603459f24d1eb1e",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/review_evidence_regression.cjs",
+    "path": "source-archives/25.b64",
+    "bytes": 11530,
+    "sha256": "e417f393a3503163b634ad9ae7a5739ae5a10e03a10d186b9caf94bf627e0311",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/shx/domain/merge_test.clj",
+    "path": "source-archives/26.b64",
+    "bytes": 2409,
+    "sha256": "4ff47ce9f8926a90fe4a0401173cf6c246ac51ea12e2b65644c999d95f1679e8",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/shx/infra/config_test.clj",
+    "path": "source-archives/27.b64",
+    "bytes": 2066,
+    "sha256": "e16f9f9a92c9eb372d9cb9994517b88e27226f53dadb2b0f9953e79d20d666f2",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/shx/law/ir_test.clj",
+    "path": "source-archives/28.b64",
+    "bytes": 1693,
+    "sha256": "6adcaa0014fc7edcfff88a5a4d63344ca96f19f78630023c9bb79ceea727b00e",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/shx/shape/bash_test.clj",
+    "path": "source-archives/29.b64",
+    "bytes": 1560,
+    "sha256": "88e62d96dabcc29860d23e35c7c7d5d65b6a5b6e38277b3e9557513df1be8227",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  },
+  {
+    "source_ref": "f4ee133dcf1650c7eafb623ef084f62417252477",
+    "source_path": "test/shx/shape/quote_test.clj",
+    "path": "source-archives/30.b64",
+    "bytes": 1006,
+    "sha256": "50cd7ab5a10fd4b5e4b281eda6b8d8d290308cd64b218937d34c2d82a6d2eb51",
+    "grammar": "canonical-base64-single-terminal-LF",
+    "source_exact": true
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "intake_audit": "0a5fb1073c9ec5d0292a0beb23a3e68d0462a1f5",
+  "proof_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/final-intake-proof.json",
+  "proof_sha256": "349e27befece0af5645d018e28414142a18f70231673d6d6caed41e6a62b18a9",
+  "records": [
+    {
+      "path": "ownership/riatzukiza-shx-2-full.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-2-full.safe.json",
+      "source_bytes": 20569,
+      "source_sha256": "df8c7f56010b43250ec01f248cbf8c300f43c15a855750bc42fed59f7ea64dd6",
+      "published_view_sha256": "df8c7f56010b43250ec01f248cbf8c300f43c15a855750bc42fed59f7ea64dd6",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/riatzukiza-shx-2-files.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-2-files.safe.json",
+      "source_bytes": 99584,
+      "source_sha256": "926ad60e6669e0f7adda0d6029bd3d0b15502330a75b4a6f17b3c5ad0401021d",
+      "published_view_sha256": "926ad60e6669e0f7adda0d6029bd3d0b15502330a75b4a6f17b3c5ad0401021d",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/riatzukiza-shx-3-full.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-3-full.safe.json",
+      "source_bytes": 21257,
+      "source_sha256": "7df6f314bdab01968815e3b96624c8130e8ca0c8b37dbacf062a9be8e289fbbd",
+      "published_view_sha256": "7df6f314bdab01968815e3b96624c8130e8ca0c8b37dbacf062a9be8e289fbbd",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/riatzukiza-shx-3-files.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-3-files.safe.json",
+      "source_bytes": 81108,
+      "source_sha256": "8952b7d66f768e3cc4a83dacfdea52da9b8784266599ce93bda84d500590c31f",
+      "published_view_sha256": "8952b7d66f768e3cc4a83dacfdea52da9b8784266599ce93bda84d500590c31f",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/riatzukiza-shx-4-full.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-4-full.safe.json",
+      "source_bytes": 21451,
+      "source_sha256": "2894abc69319e8c1e0a5ee9c0473b054ab8a646f63cebbd633575474722518b5",
+      "published_view_sha256": "2894abc69319e8c1e0a5ee9c0473b054ab8a646f63cebbd633575474722518b5",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/riatzukiza-shx-4-files.safe.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/riatzukiza-shx-4-files.safe.json",
+      "source_bytes": 434567,
+      "source_sha256": "a6526ef4ce1fd2a936a7acc83ba366b626801eba24f8778064e6009638cd0681",
+      "published_view_sha256": "a6526ef4ce1fd2a936a7acc83ba366b626801eba24f8778064e6009638cd0681",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/native-task-supervisor-ir-law.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/native-task-supervisor-ir-law.json",
+      "source_bytes": 13093,
+      "source_sha256": "5bde1efbad57ec0b89e1b1110f0e939d511f2a20b91a9acf9381a440cd9d38a3",
+      "published_view_sha256": "1913b39ee0b94f059f2b3bd74532b72d432bc62e43bc602cd333983bc296c1b8",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/native-task-supervisor-ir-merge-law.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/native-task-supervisor-ir-merge-law.json",
+      "source_bytes": 5898,
+      "source_sha256": "df74cbe8fb140cd5ab09188cbe0219ca3ff727ee470b57dcf3655248089e107f",
+      "published_view_sha256": "d6facaa9ee0fff8f84cdd726d9dee07bfba5a9115b6ee0dadd7540ec1e8d5987",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    },
+    {
+      "path": "ownership/native-task-heretic-schema-literal-attribution.json",
+      "source_private": "/home/err/.codex/parallel-goal/issues-20261006/Direct-small-intake-94723f2682/outside/native-task-heretic-schema-literal-attribution.json",
+      "source_bytes": 7033,
+      "source_sha256": "591adf888d101358fe4c1479a17a0c20c3d8fb4c574fc9cfd1533f2c72aee247",
+      "published_view_sha256": "2e25d09c4180011ef37e5a94071e44d832ccf8c4fba94eb4c5141874f792f49f",
+      "semantic_json_projection": true,
+      "time_scope": "sealed intake before this source authoring; native URLs retain only unscoped source references"
+    }
+  ]
+}
