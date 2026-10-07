@@ -73,3 +73,31 @@ stream families, with single terminal LF Base64 wrappers. Existing source, tests
 gate inputs, workflows, configured board and event history are unchanged. Complete
 base-to-tip preservation, clean Git status and actual owner full-tip validation
 are external frozen-head proof; earlier working checks cannot qualify a successor.
+
+## Final proof setup corrections
+
+The final no-shallow guard caught a shallow boundary inherited from the private
+readstore. Earlier fsck/no-missing-reachable-object checks did not establish
+complete accepted ancestry. A read-only `git fetch --unshallow` of upstream
+`refs/heads/main` into this same independent store completed exit 0; the bare
+store `FETCH_HEAD` binds exact `f4ee133dcf1650c7eafb623ef084f62417252477` and the
+shallow marker is absent. No product or gate input changed. The original local
+checkpoint remains in history; final complete-object/ancestry proof binds this
+successor and does not elevate the old incomplete preparation checks.
+
+Two private proof setup mistakes are also retained. The consumer JSON emits
+`schema`, so an assertion looking for `source/schema` failed despite actual row
+58 validation exit 0. A bare-store fetch writes its own `FETCH_HEAD`, rather than
+the worktree-local namespace assumed by another guard. These are operator proof
+errors, not consumer/source defects.
+
+Repeating private final-proof command names after fetching history overwrote one
+prior reachable-object stdout capture. Its original expected byte count/hash and
+manifest snapshot survive, but those old raw bytes are unavailable. The current
+output and all subsequent uniquely named captures are retained. **All 36 frozen
+source transport containers and their original manifest remain exact**; the loss
+is confined to that unpublished private proof stream. Final proof explicitly
+excludes the lost stream from lossless claims, discloses its hash-only history,
+and verifies current completeness afresh. No inherited receipt, card, event,
+reflection, source or other lane was affected. No analyzer repeat is required:
+every gate input remains byte-identical.
