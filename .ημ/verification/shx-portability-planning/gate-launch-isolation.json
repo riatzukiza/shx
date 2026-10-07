@@ -1,0 +1,39 @@
+{
+  "pid": 1615958,
+  "argv": [
+    "bwrap",
+    "--ro-bind",
+    "/",
+    "/",
+    "--dev",
+    "/dev",
+    "--proc",
+    "/proc",
+    "--bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031",
+    "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031",
+    "--tmpfs",
+    "/tmp",
+    "--unshare-net",
+    "--die-with-parent",
+    "--chdir",
+    "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/worktree",
+    "bash",
+    "bin/analyze",
+    "--strict"
+  ],
+  "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/worktree",
+  "environment": {
+    "PATH": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/toolbin:/home/err/.local/bin:/home/err/.rbenv/shims:/home/err/.codex/tmp/arg0/codex-arg0PxD6rs:/home/err/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/err/.local/bin:/home/err/.rbenv/shims:/home/err/.local/bin:/home/err/.local/bin:/home/err/.volta/bin:/home/err/devel/.volta/tools/image/node/20.19.4/bin:/home/err/.bun/bin:/home/err/.opencode/bin:/home/err/.fly/bin:/home/err/devel/promethean/.volta/tools/image/node/20.19.4/bin:/home/err/.local/share/pnpm:/home/err/.cargo/bin:/home/err/.local/bin:/home/err/.rbenv/shims:/home/err/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/err/bin:/home/err/bin:/home/err/devel/bin:/home/err/go/bin:/home/err/.volta/tools/image/node/24.14.1/bin:/home/err/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources",
+    "TMPDIR": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/tmp",
+    "XDG_CACHE_HOME": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache",
+    "XDG_CONFIG_HOME": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/config",
+    "CLJ_CONFIG": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/config",
+    "CLJ_CACHE": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache/clj",
+    "CLJ_GITLIBS": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache/gitlibs",
+    "npm_config_cache": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache/npm",
+    "npm_config_prefix": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache/npm-prefix",
+    "JAVA_OPTS": "-Xms128m -Xmx768m -XX:ActiveProcessorCount=2",
+    "NODE_COMPILE_CACHE": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/cache/node"
+  }
+}

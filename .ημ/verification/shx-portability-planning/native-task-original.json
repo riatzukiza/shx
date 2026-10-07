@@ -1,0 +1,26 @@
+{
+  "uuid": "shx-kanban-port-shx-to-cljc",
+  "frontmatter": {
+    "category": "tasks",
+    "labels": [
+      "tasks",
+      "hexis",
+      "port",
+      "8sp"
+    ],
+    "points": "8",
+    "source": "shx/kanban/port-shx-to-cljc.md",
+    "title": "Port shx law/shape/domain to .cljc for nbb + shadow-cljs",
+    "priority": "P1",
+    "status": "todo",
+    "uuid": "shx-kanban-port-shx-to-cljc",
+    "created_at": "2026-08-10T05:44:12.012Z"
+  },
+  "sections": [
+    {
+      "type": "body",
+      "content": "# Port shx to .cljc\n\n## Context\n\nshx is JVM Clojure. clio and eta-mu are nbb / shadow-cljs. Merging requires\n`law/`, `shape/`, and `domain/` to be runtime-neutral `.cljc`, with JVM-only\ncode pushed behind an `extern` boundary.\n\nclio already proved this shape and enforces it with a boundary lint that\nrefuses raw `js/`, `#js`, `js*`, or string host requires outside\n`clio.extern.js.*` \u2014 reading forms via edamame, not text.\n\n## Blocked-by nothing, blocks the epic\n\n`shx.shape.quote` and `shx.law.ir` are already pure and should port cleanly.\n`shx.infra.config` and `shx.infra.fs` are the JVM-bound parts and become\n`extern`.\n\n## Note\n\nThe same wall stands in front of Truth and Epiphany, which are also clj/jvm.\nSolving it here is reusable."
+    }
+  ],
+  "source-path": "/home/err/.codex/parallel-goal/issues-20261006/Shx-portability-planning-2b427d6031/outside/native-fixture/kanban/port-shx-to-cljc.md"
+}
