@@ -1,0 +1,167 @@
+[
+  {
+    "path": "kanban/.events/ledger.edn",
+    "bytes": 78485,
+    "sha256": "85a50488d9540a619f1c83a487fa223caf612ccf83fce71572e67b89cdbc380a"
+  },
+  {
+    "path": "kanban/add-the-structural-smell-report-and-a-namespace-law-boundary-check-ry-check.md",
+    "bytes": 9770,
+    "sha256": "9207620f6a2f75b8912b24416cd75ad28e00352d3ed6e2bbf2b755f91007f59a"
+  },
+  {
+    "path": "kanban/assert-merge-frag-s-type-collision-fallback-untested.md",
+    "bytes": 6094,
+    "sha256": "fc73c8112e33cae29468c7452c2fca9596fa0f8d0b89ff3a7a13b76e611d74ce"
+  },
+  {
+    "path": "kanban/claude-md-agents-md-shim.md",
+    "bytes": 892,
+    "sha256": "88bfdedeb80519dd4124621d6aab1d3043eeceed67e360627b985fd75fb3f878"
+  },
+  {
+    "path": "kanban/clio-ledgers-for-eta-mu.md",
+    "bytes": 630,
+    "sha256": "aef5160c4dd4dc246d322921f76ad561d1ffad25a979e0dc88902dbc6505dd49"
+  },
+  {
+    "path": "kanban/converge-path-semantics.md",
+    "bytes": 684,
+    "sha256": "dc848c4e47e414818320ec12d7ed677d4c05cfad4ab6f6940525d85c263a6f72"
+  },
+  {
+    "path": "kanban/decision-how-to-mutation-test-malli-schema-literals-ribution.md",
+    "bytes": 6455,
+    "sha256": "9e43ba627ef84dec19a32950be0720157bc21cafcc6e627e41cfada4beff5699"
+  },
+  {
+    "path": "kanban/decompose-contract-to-ledgers.md",
+    "bytes": 1063,
+    "sha256": "ca7e30330ba00c64257ff13e420cf577c4429929c5d79ef5dfd411e6dc10c0a0"
+  },
+  {
+    "path": "kanban/define-the-supervisor-unit-stack-ir-as-malli-schemas-in-cljc-r-ir-law.md",
+    "bytes": 12470,
+    "sha256": "3300ce1af6b629e975bee183b067d2fe2d283d123cf0d1dab0a35b998a12851d"
+  },
+  {
+    "path": "kanban/describe-the-knoxx-dev-stack-in-edn-and-run-it-via-apply-ev-stack.md",
+    "bytes": 3126,
+    "sha256": "eca975d8eca1a50174c1bce64769e15f7f790e84ec9e1db8de72337c5b55b8d2"
+  },
+  {
+    "path": "kanban/docs-notes-to-inbox.md",
+    "bytes": 437,
+    "sha256": "6c0ea471210a4453bf44658f43f7548384e8e44d97e0c9d392943840e9ed98c0"
+  },
+  {
+    "path": "kanban/epic-one-edn-stack-runs-a-host-s-services-under-pm2-compose-systemd-or-kubernetes-visor-ir.md",
+    "bytes": 4946,
+    "sha256": "63a051d35b63df8846694e12a6b0388f4ef5f32e944f266823a205c076a63f76"
+  },
+  {
+    "path": "kanban/expose-supervisor-render-check-and-apply-through-the-shx-cli-r-ir-cli.md",
+    "bytes": 2847,
+    "sha256": "88ac33f07bb0b0de8351a91b9217811fd9e4244a3bfb417598d7ae759f314fe4"
+  },
+  {
+    "path": "kanban/hexis-assembler.md",
+    "bytes": 3781,
+    "sha256": "3906fa5a0aaa387e91d30f86e1978ec7f32fcb57896423046278ca083fb20cef"
+  },
+  {
+    "path": "kanban/hexis-unification-epic.md",
+    "bytes": 1275,
+    "sha256": "b667f6621ddfafb6343ea5acca28d2b4d0b1f0be0f49da899198e97933798142"
+  },
+  {
+    "path": "kanban/migrate-ledgers-to-clio.md",
+    "bytes": 3318,
+    "sha256": "11df6db15b6aa96250d1a32b439ebef42a3c670ed8a13655373cdf851d744abc"
+  },
+  {
+    "path": "kanban/mycology-targets-ledgers.md",
+    "bytes": 1089,
+    "sha256": "48d2e3e2383c214f6d69ea2932d21674151f4abaf38934c8682da7c12b740b4a"
+  },
+  {
+    "path": "kanban/name-the-unified-package.md",
+    "bytes": 1376,
+    "sha256": "842f021eaff0affd2d7d37c746c66a29780a1b1fe032dc9f38142bd5967cf520"
+  },
+  {
+    "path": "kanban/naming-lattice-ledger.md",
+    "bytes": 631,
+    "sha256": "6eb78f1e32ed10653cff6f01c282d3fc6accb4b6af98c9da7c77daa4237dafec"
+  },
+  {
+    "path": "kanban/normalize-derived-archive-documentation-without-rewriting-source-dc690f88.md",
+    "bytes": 2355,
+    "sha256": "f86963791125eb35b55b8d3865ae73bdc14248a9d4fed1521bfb599495fe14b5"
+  },
+  {
+    "path": "kanban/port-clobber-s-merge-and-prototype-semantics-to-pure-cljc-erge-law.md",
+    "bytes": 5404,
+    "sha256": "00cdc3ecc89b30168cd7e8cf940cbfadfcda7660f128e94327db35723291b9ff"
+  },
+  {
+    "path": "kanban/port-shx-to-cljc.md",
+    "bytes": 1029,
+    "sha256": "cdeee9eaf734091f6342b071509448e100f5fee1358adb1d207e64c0e7fc9270"
+  },
+  {
+    "path": "kanban/probe-confirm-the-fsm-build-gate-runs-bin-analyze-te-probe.md",
+    "bytes": 1454,
+    "sha256": "e74eac2d84dbbd2da564f209d932d8474746facaf27e56ce48ec15c64fa6d986"
+  },
+  {
+    "path": "kanban/process-inbox.md",
+    "bytes": 2495,
+    "sha256": "458e33769655ff4b4fcaaebe40042171513c31993e6c7bfc6fc2814e31370f1f"
+  },
+  {
+    "path": "kanban/render-check-and-apply-a-stack-on-docker-compose--compose.md",
+    "bytes": 12236,
+    "sha256": "defa8142c5aadf8a78e4e9ed40cfa8d8189d2b4989a2d909f904978b52a75dc0"
+  },
+  {
+    "path": "kanban/render-check-and-apply-a-stack-on-kubernetes-r-ir-k8s.md",
+    "bytes": 14439,
+    "sha256": "415fb757f0734badfe2f482aa5e2c2c0357f140dbc3e33b3537d5c4cf95fefc3"
+  },
+  {
+    "path": "kanban/render-check-and-apply-a-stack-on-pm2-r-ir-pm2.md",
+    "bytes": 4717,
+    "sha256": "ea9f57d7177fa10f37542038c30b0578775bb951a9693c0987aa628e1d875c87"
+  },
+  {
+    "path": "kanban/render-check-and-apply-a-stack-on-systemd-user-units--systemd.md",
+    "bytes": 10717,
+    "sha256": "a55167ec67b44100c9df7094cabcb8e988f6049a11235c086a6b90c6b8bbc9db"
+  },
+  {
+    "path": "kanban/shx-bb-cli-untested.md",
+    "bytes": 2544,
+    "sha256": "24b466c5628df5b57a0408db488864e3481a9f2202c5f4ff45724e0d8708a883"
+  },
+  {
+    "path": "kanban/shx-core-runtime-missing.md",
+    "bytes": 652,
+    "sha256": "cf357823010627f01b4a9a15643fd1448bc0f18e24d33dd901b753ef7e3a9f1b"
+  },
+  {
+    "path": "kanban/tool-call-file-change-hook.md",
+    "bytes": 2587,
+    "sha256": "9e48f793034d5ce9647c9909fdd80f7f1d4ea98fe1a3d3dc178585c9064f9e82"
+  },
+  {
+    "path": "kanban/validate-every-supervisor-live-state-payload-before-reconciliation-tate-law.md",
+    "bytes": 5697,
+    "sha256": "0694c2109be622bc1d40993fca18ca6cf45e0da71f3db72c771cd313ac78e926"
+  },
+  {
+    "path": "openhax.kanban.edn",
+    "bytes": 1614,
+    "sha256": "bf6528b7aac31ce1fb83cf2ef3c7a38d49f9e2e8deeadc2871084e9f7021a28e"
+  }
+]

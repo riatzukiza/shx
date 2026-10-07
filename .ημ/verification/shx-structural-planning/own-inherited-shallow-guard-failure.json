@@ -1,0 +1,7 @@
+{
+  "observed": "Final completeness guard found independently cloned source.git/shallow inherited from own readstore",
+  "previous_checks": "fsck0/no currently missing reachable objects did not prove complete accepted ancestry",
+  "source_candidate": "1a7d21cb0a162196a23794d6394f9fd5891fb7bf unchanged",
+  "cause": "Own donor completeness assumption, no attribution or upstream source issue",
+  "repair": "Read-only Git network fetch --unshallow in this owned store; no source rewrite/global mutation"
+}

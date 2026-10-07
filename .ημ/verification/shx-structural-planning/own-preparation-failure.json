@@ -1,0 +1,5 @@
+{
+  "observed": "metadata tail TypeError after complete private clone/worktree/captures; variable p shadowed by bytes path in tree loop",
+  "remote_or_source_mutation": false,
+  "recovery": "Resume metadata only in existing context; original script/captures retained; no clone restart"
+}

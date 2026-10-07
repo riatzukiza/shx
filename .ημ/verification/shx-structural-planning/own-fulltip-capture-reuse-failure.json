@@ -1,0 +1,17 @@
+{
+  "scope": "Private final-proof captures only, published source containers unaffected",
+  "observation": "Reusing final-proof capture names after unshallow overwrote one prior reachable-object stream; old expected digest retained, old raw prior stream no longer available",
+  "mismatches": [
+    {
+      "index": 22,
+      "name": "FULLTIP-reachable-objects",
+      "family": "stdout",
+      "expected_bytes": 18187,
+      "actual_bytes": 43413,
+      "overwritten_hash": "de5d72f05045210e4473c8253d816bf103ef3ed581df2f6cfbf73975080a4561",
+      "prior_expected_hash": "bcec0303be5c8bb2bd480f896e30ba19ac82b8334c06e307f9a8616afe662572"
+    }
+  ],
+  "correction": "Unique names for all subsequent captures; qualify current proof only and explicitly retain original hash-only limitation",
+  "FETCH_HEAD": "Bare store FETCH_HEAD differs worktree per-worktree namespace; corrected source.git explicit guard"
+}

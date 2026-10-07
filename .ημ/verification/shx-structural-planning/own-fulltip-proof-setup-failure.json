@@ -1,0 +1,6 @@
+{
+  "failed_assertion": "Python expected namespaced source/schema JSON key; clj->js returned schema",
+  "actual_consumer": "Exit0 row58 valid/declared0errors;36historical refusals",
+  "correction": "Fix proof key lookup only; old0API capture retained, new attempt uses distinct capture name",
+  "source_or_remote_change": false
+}

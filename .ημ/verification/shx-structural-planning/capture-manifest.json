@@ -1,0 +1,504 @@
+[
+  {
+    "name": "fresh-fork",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/shx"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:42.087124+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-fork.stdout.b64",
+      "bytes": 13644,
+      "sha256": "9975356aa91d5c898822cc65c6f651a14ff5fbdfd1ca28e1ed70b1c27babde81",
+      "original_native_bytes": 16113,
+      "original_native_sha256": "1c96e5f302434998b1e789f6da91537f4b471432eec38714ef91c9948f97fabe"
+    },
+    "stderr": {
+      "path": "captures/fresh-fork.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-origin-main",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/shx/commits/main"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:42.857496+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-origin-main.stdout.b64",
+      "bytes": 197204,
+      "sha256": "594d24dd8f14cf185b69b354de6c85046ca6ce5c0a3e411ee7391695f647e62e",
+      "original_native_bytes": 200286,
+      "original_native_sha256": "b9fdd0150f309ba4b562ec0b3afdbe58be3b561185667e990ea62cb6bc452a26"
+    },
+    "stderr": {
+      "path": "captures/fresh-origin-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-personal-main",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/shx/commits/main"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:43.478374+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-personal-main.stdout.b64",
+      "bytes": 40026,
+      "sha256": "72f2badbad27a0f2045bb6d6a62d7cf9a4b3319703d820a36adcd44d7126b561",
+      "original_native_bytes": 40374,
+      "original_native_sha256": "b933a7df317ca60b9b4f7c7f9f3356227e57715432992015c86fe9f4d11e9d65"
+    },
+    "stderr": {
+      "path": "captures/fresh-personal-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-personal-PRs",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/shx/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.011681+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-personal-PRs.stdout.b64",
+      "bytes": 50607,
+      "sha256": "d35761a1a254afe196e3e5631530e8bef7bf5b53518e0aebe3ef07b0d3b8ef84",
+      "original_native_bytes": 52588,
+      "original_native_sha256": "079d09c791cfb64aaa96e7fde17d4434cba3d7e80c3ce5b29d66f128c7e4cd99"
+    },
+    "stderr": {
+      "path": "captures/fresh-personal-PRs.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-origin-PRs",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/shx/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.586397+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-origin-PRs.stdout.b64",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "original_native_bytes": 2,
+      "original_native_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "path": "captures/fresh-origin-PRs.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "NEW-complete-independent-clone",
+    "argv": [
+      "git",
+      "clone",
+      "--bare",
+      "--no-local",
+      "--no-hardlinks",
+      "/home/err/.codex/parallel-goal/issues-20261006/next-ready-intake-5a8c463948/shx/source.git",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/source.git"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.691346+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/NEW-complete-independent-clone.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/NEW-complete-independent-clone.stderr.b64",
+      "bytes": 127,
+      "sha256": "4ec399bbec9b7dad581be2c0715ebc0f6ee9ecc20b91e19b2987f70eb880af7e",
+      "original_native_bytes": 127,
+      "original_native_sha256": "4ec399bbec9b7dad581be2c0715ebc0f6ee9ecc20b91e19b2987f70eb880af7e"
+    }
+  },
+  {
+    "name": "NEW-source-worktree",
+    "argv": [
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/source.git",
+      "worktree",
+      "add",
+      "-b",
+      "codex/shx-structural-boundary-planning",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+      "f4ee133dcf1650c7eafb623ef084f62417252477"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.806714+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/NEW-source-worktree.stdout.b64",
+      "bytes": 89,
+      "sha256": "904ccd2ff8010c0f791721224b95033a96cd3fcb1d4aa2c180b6744cd29128f6",
+      "original_native_bytes": 89,
+      "original_native_sha256": "904ccd2ff8010c0f791721224b95033a96cd3fcb1d4aa2c180b6744cd29128f6"
+    },
+    "stderr": {
+      "path": "captures/NEW-source-worktree.stderr.b64",
+      "bytes": 73,
+      "sha256": "71aa2debb899e0230f56894afe179555b6385ca2a9ec76ef91ed4c0e64c6970d",
+      "original_native_bytes": 73,
+      "original_native_sha256": "71aa2debb899e0230f56894afe179555b6385ca2a9ec76ef91ed4c0e64c6970d"
+    }
+  },
+  {
+    "name": "full-connectivity",
+    "argv": [
+      "git",
+      "fsck",
+      "--full",
+      "--no-reflogs"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.831531+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/full-connectivity.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/full-connectivity.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "all-reachable-objects",
+    "argv": [
+      "git",
+      "rev-list",
+      "--objects",
+      "--all",
+      "--missing=print"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:22:44.839543+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/all-reachable-objects.stdout.b64",
+      "bytes": 10586,
+      "sha256": "c893208cd1a6a9a57bb27f0e54e4835cc17a0c0c1bcb6a6d1545116f7350cfaa",
+      "original_native_bytes": 10586,
+      "original_native_sha256": "c893208cd1a6a9a57bb27f0e54e4835cc17a0c0c1bcb6a6d1545116f7350cfaa"
+    },
+    "stderr": {
+      "path": "captures/all-reachable-objects.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "original-authoritative-EDN-native-read",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/rheos-cli.cjs",
+      "read-task",
+      "structural-smells-and-boundary-check",
+      "--config",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/board-original/openhax.kanban.edn"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/board-original",
+    "exit": 1,
+    "captured_at": "2026-10-07T05:30:57.137425+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/original-authoritative-EDN-native-read.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/original-authoritative-EDN-native-read.stderr.b64",
+      "bytes": 499,
+      "sha256": "565133c263e1bbf4380086ca6682dc5b7ce73a80a634d452e5ba044d8393f4c3",
+      "original_native_bytes": 499,
+      "original_native_sha256": "565133c263e1bbf4380086ca6682dc5b7ce73a80a634d452e5ba044d8393f4c3"
+    }
+  },
+  {
+    "name": "proposed-authoritative-EDN-native-read",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/rheos-cli.cjs",
+      "read-task",
+      "structural-smells-and-boundary-check",
+      "--config",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/board-proposed/openhax.kanban.edn"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/board-proposed",
+    "exit": 1,
+    "captured_at": "2026-10-07T05:30:58.347174+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/proposed-authoritative-EDN-native-read.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/proposed-authoritative-EDN-native-read.stderr.b64",
+      "bytes": 499,
+      "sha256": "565133c263e1bbf4380086ca6682dc5b7ce73a80a634d452e5ba044d8393f4c3",
+      "original_native_bytes": 499,
+      "original_native_sha256": "565133c263e1bbf4380086ca6682dc5b7ce73a80a634d452e5ba044d8393f4c3"
+    }
+  },
+  {
+    "name": "portable-reflection-before",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:30:58.545317+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-before.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-before.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "exit": 1,
+    "started": "2026-10-07T05:26:38.626827+00:00",
+    "ended": "2026-10-07T05:28:04.794202+00:00",
+    "stdout": {
+      "path": "captures/required-baseline-gate-attempt1.stdout.b64",
+      "bytes": 1383,
+      "sha256": "3599e87a3b0af7af2bcc56341eb7fe3f0a57cb1d1183ad52411be2de96c2521e"
+    },
+    "stderr": {
+      "path": "captures/required-baseline-gate-attempt1.stderr.b64",
+      "bytes": 7819,
+      "sha256": "9e6ebb7bf3550f737b53e9e4b3d0f562aff096de044be40ad27f982b0af4bbee"
+    },
+    "name": "required-baseline-gate-attempt1",
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "argv": [
+      "bash",
+      "bin/analyze",
+      "--strict"
+    ]
+  },
+  {
+    "exit": 0,
+    "started": "2026-10-07T05:29:20.699168+00:00",
+    "ended": "2026-10-07T05:30:50.845543+00:00",
+    "stdout": {
+      "path": "captures/required-baseline-gate-attempt2.stdout.b64",
+      "bytes": 1325,
+      "sha256": "aedabe5d2d3842ad75b9a78ec64f0def50f2cf1025733bfd9cbd5f79df8ef66f"
+    },
+    "stderr": {
+      "path": "captures/required-baseline-gate-attempt2.stderr.b64",
+      "bytes": 840,
+      "sha256": "3ce1017c4b18385d748c92f27d1dda9574e854c3b24453744a8031ec667999cf"
+    },
+    "name": "required-baseline-gate-attempt2",
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "argv": [
+      "bash",
+      "bin/analyze",
+      "--strict"
+    ]
+  },
+  {
+    "name": "actual-owner-decision-append",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/receipt-river/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/own-consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree/receipts.edn",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/receipt-params.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:32:28.827048+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/actual-owner-decision-append.stdout.b64",
+      "bytes": 125,
+      "sha256": "32be62ee5a8b8a2f09b00e3e262702e01972b86ddbf09b01067c358d3fe71017",
+      "original_native_bytes": 91,
+      "original_native_sha256": "5998007807a12c7a5fd058dc19baf44330027dd06910e5d81181b5c150e0d745"
+    },
+    "stderr": {
+      "path": "captures/actual-owner-decision-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "actual-owner-working-full-ledger",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/receipt-river/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/own-consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree/receipts.edn"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:32:29.193941+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/actual-owner-working-full-ledger.stdout.b64",
+      "bytes": 9572,
+      "sha256": "660021618278361e38fff8e14ddcc58ae65e9deb33f0c4e6ebc0e814950333e1",
+      "original_native_bytes": 6211,
+      "original_native_sha256": "600a01c24928b06ca77245629872721a39f4b58bb9ee306f71996f86c2f179de"
+    },
+    "stderr": {
+      "path": "captures/actual-owner-working-full-ledger.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "portable-reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/mycology/sm-log.bb",
+      "--task",
+      "Shx whole structural and namespace-boundary planning",
+      "--efficiency",
+      "0.85",
+      "--friction",
+      "0.24",
+      "--candidate",
+      "0.12",
+      "--receipt-refs",
+      "bac0e9b1b4b15e33b2adf57d2787f9c061c98afc1e8f589d2a5fd177d89c4907",
+      "--note",
+      "Full original contract first, source completeness before a zero-report claim. Peer caught valid-shaped truncated export hole; corrected before freeze. Inherited JAVA_OPTS initial heap conflicted with private limit; preserved refusal and corrected only local launch. Actual7gate baseline is not newchecker/Ready proof. No spore or live fanout."
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:32:29.210674+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-append.stdout.b64",
+      "bytes": 136,
+      "sha256": "b54b9cd00956b5a5727e0440a8846a200e82e3a0862de2bf44f6915257e5f3fc",
+      "original_native_bytes": 136,
+      "original_native_sha256": "b54b9cd00956b5a5727e0440a8846a200e82e3a0862de2bf44f6915257e5f3fc"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "portable-reflection-after",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Shx-structural-planning-0a37460171/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:32:29.227185+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-after.stdout.b64",
+      "bytes": 738,
+      "sha256": "d8868c9de033aceeb775a4f114688b10bb55eef828b992105011a9d26ff5da56",
+      "original_native_bytes": 738,
+      "original_native_sha256": "d8868c9de033aceeb775a4f114688b10bb55eef828b992105011a9d26ff5da56"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-after.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

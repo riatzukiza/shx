@@ -1,0 +1,14 @@
+{
+  "head_branch": "codex/shx-structural-boundary-planning",
+  "base": "f4ee133dcf1650c7eafb623ef084f62417252477",
+  "base_branch": "codex/shx-sync-upstream-f4ee133",
+  "personal_main": "c3a6631a39e57d88898c3ba52cd62573e4b9ecf9",
+  "origin_main": "f4ee133dcf1650c7eafb623ef084f62417252477",
+  "Foresight_declared_pin": "6cd0ce366c66ac50dfa3ec55bdd8e55eb021bcaa",
+  "map": "octave-commons/shx -> riatzukiza/shx",
+  "original_card": "kanban/add-the-structural-smell-report-and-a-namespace-law-boundary-check-ry-check.md",
+  "original_card_identity": "structural-smells-and-boundary-check",
+  "operational_status": "Installed owner artifact refused authoritative EDN; existing EtaMu239 distribution consumption hold, no JSON mirror or readiness qualification",
+  "proposal_metadata": "Original Incoming/P2/5/UUID/frontmatter/history retained; complete six criteria/two hostile cases",
+  "no_implementation_or_remote_writes": true
+}

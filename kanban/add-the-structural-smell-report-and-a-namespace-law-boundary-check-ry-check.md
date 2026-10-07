@@ -123,3 +123,71 @@ must be run by hand at least once and the result noted in a comment on this card
 - Build against the current JVM shx, or write it `.cljc` from the start so it
   ports into eta-mu unchanged? Same fork in the road as `hexis-assembler`, and
   the answer should match that card's. **Resolve before this leaves `breakdown`.**
+
+## Proposed whole-card refinement — 2026-10-07
+
+This addendum is a planning proposal against source
+`f4ee133dcf1650c7eafb623ef084f62417252477`. The entire original contract above,
+its six acceptance criteria and both hostile checks remain required. Incoming,
+P2, five points, UUID and all engine history are unchanged. Source artifact
+inspection is not a current Rheos status or readiness qualification. See
+[the proposed design](../docs/design/structural-boundary-planning.md).
+
+### Complete outcome and review decisions
+
+Implement both structural reporting and form-aware namespace boundaries as
+blocking sections of the existing analyzer, with explicit `bb.edn` entry points
+and matching documentation. No partial smell-only or boundary-only completion.
+The existing seven gates remain blocking. HARD breaches must fail normal and
+strict invocations; tool failure, malformed/empty analysis or unreadable forms
+must never produce a zero-findings result.
+
+Prefer portable Clojure-shaped metric, rule, finding and verdict functions in
+`.cljc`; keep files, processes, clj-kondo capture, reader-host plumbing and exit
+codes in outer adapters. Resolve the original placement question through review
+before breakdown ends. The practical reader/pins and supported reader-conditional
+branches also require review; no unverified cross-host reader is promised.
+Current source has nine `.clj` files / 620 physical lines (122 at the largest
+namespace). That is a source count, not measured structural metrics or proof that
+new checks pass. Calibrate Shx-specific HARD thresholds over actual definitions,
+arity, source spans and dependency fan-out; pin the reviewed numbers with
+at-limit/over-limit fixtures. Do not copy Truth thresholds or relax a threshold
+to hide current findings.
+
+### Required verification contract
+
+Retain all six original acceptance criteria, both original manual hostile cases,
+and their future native Rheos outcome comment. Add isolated fixtures for aliased
+and fully qualified I/O, law-to-infra dependencies, comments/docstrings/quoted
+data, reader conditionals, banned junk-drawer namespaces, malformed forms,
+missing/empty/failed kondo exports, valid-shaped empty or omitted-source analysis,
+and every HARD metric at its boundary. Review supported producer/version/schema
+and selected-source completeness attestation; do not invent kondo fields or treat
+a manifest alone as proof of exported rows. Reader
+input must not execute arbitrary forms. Positive controls must prove real safe
+programs pass; diagnostics identify source file, location, rule and measured
+value without leaking host content. Real command fixtures must discover the new
+checks and return nonzero for injected failures in both modes, independently of
+other successful analyzers. Preserve the existing failure-semantics regression
+suite and all required gates; pure-layer edits require the owning mutation loop.
+
+### Scope, relationships and admission
+
+Personal Shx PR 2 covers emitter/CLI/Bash tests and PR 3 the complete emitted
+runtime; neither supplies these two analyzer sections. Their proposals are
+unqualified and supply no approval or hard dependency. Coordinate future file
+and selector overlap at the tested merge base, preserving envm/IR semantics.
+The CLJC/hexis cards remain original architectural context; this proposal does
+not wait silently for either port or adopt donor repositories. If the complete
+outcome will not fit five points, review a lawful breakdown retaining every
+criterion before implementation; this addendum does not change the estimate,
+create children or move the card.
+
+Implementation remains held for reviewed planning, the placement/calibration/
+reader decisions, lawful Rheos readiness and qualified synchronization ancestry.
+The installed owner artifact currently refuses the authoritative EDN config;
+current owner source already supports EDN, while distribution consumption is
+tracked by [Eta Mu issue 239](https://github.com/open-hax/eta-mu/issues/239).
+Do not treat the deprecated JSON diagnostic mirror as operational authority or
+build a second board surface. Planning mechanics and the unchanged baseline
+analyzer are evidence of preparation, not implementation or transition proof.
