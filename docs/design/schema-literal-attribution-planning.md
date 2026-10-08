@@ -60,7 +60,7 @@ comment or accepted policy.
 | Decision, runner-up and reason in Scope and card comment | Exact adopted text linked from mutation docs plus canonical comment output/readback/event. Preserve original body/comment and all event prefixes. No self-authored proposal is the decision record. |
 | If A, law exclusion and remeasured baseline | Reviewed exact exclusion/config diff and actual full output bound to source/config/tests/runner/cache state. Report any executable-law exclusions and independent law evidence. No hand-edited totals or inferred denominator. |
 | If D, upstream issue link | Actual canonical upstream issue identifier/body/link with load-time and lost-attribution scope, existing-owner dedup and current disposition. A plan or hypothetical link does not satisfy it. |
-| Real gaps versus lost attribution remains after exclusion | Reachable documentation names both causes and unresolved classifications; examples include historical shape/quote loss separately from genuine emitter gaps. Excluding law does not make the remaining headline a single trustworthy category. |
+| Real gaps versus lost attribution in the applicable scope | If A is selected, reachable documentation names both causes and unresolved classifications among sites remaining after excluding `law/`; examples include historical shape/quote loss separately from genuine emitter gaps. Under B, apply the same distinction to the retained scope. Excluding law does not make the remaining headline a single trustworthy category. |
 
 ## Verification matrix: future controls, not executed claims
 

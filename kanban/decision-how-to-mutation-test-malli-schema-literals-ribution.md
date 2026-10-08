@@ -190,7 +190,9 @@ approval or adopted semantics for this card.
 
 The four original acceptance criteria remain mandatory, including both
 conditional branches: A requires reviewed exclusion plus real remeasurement;
-D requires an actual upstream issue link. The proposal adds controls for
+D requires an actual upstream issue link. The real-gaps criterion uses the
+post-exclusion scope only if A is selected; under B, it applies to the retained
+scope. The proposal adds controls for
 executable-law coverage, schema constraints, an unrelated-test attribution
 perturbation, stale indexes, selector incompleteness and missing tools. The matrix
 preserves historical source/site references as dated evidence, not current counts.
