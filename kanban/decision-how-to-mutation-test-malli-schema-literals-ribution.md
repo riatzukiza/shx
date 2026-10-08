@@ -140,3 +140,70 @@ This does not change the recommendation (A now, D filed) but it sharpens D and a
 
 Recorded in docs/mutation-testing.md > 'The score is not stable'. Fold this into the body before this card leaves breakdown.
 ---
+
+## Proposed current-source planning refinement (not an adopted decision)
+
+This append is a planning proposal against owning Shx source
+`f4ee133dcf1650c7eafb623ef084f62417252477`. The original card, five options,
+four acceptance criteria and historical comment above remain intact. Incoming /
+P2 / 2 points is unchanged; no Rheos transition, operational comment, decision
+adoption, mutation measurement or configuration edit is performed here.
+
+### Outcome and recommendation for review
+
+Record a reviewed policy that distinguishes genuine test gaps, unattributed
+load-time schema forms and lost attribution without silently removing executable
+law verification. Proposed recommendation: **B now, with D investigated as a
+separate upstream support path**. Keep the present mutation scope while documenting
+the partition and its uncertainty. This is a proposal, not a decision or a claim
+that an upstream issue/support route already exists.
+
+A is the runner-up because it is small and reversible, but its original
+file-level exclusion also covers `valid-config?`, `explain-config`, `valid-node?`,
+`valid-program?` and `explain-program` in the current law files. It cannot be
+adopted on the premise that those files contain only schema literal forms.
+Retain the original conditional A acceptance criterion: if review nevertheless
+chooses A, explicitly disclose this executable-law cost, preserve independent
+law assertions and measured evidence, apply the reviewed exclusion and actually
+remeasure the baseline. Do not hand-edit totals. C remains a reviewed alternative,
+not permission to reshape contracts to flatter the tool. E would discard real-gap
+signals and remains unsuitable. Review may choose a different option with recorded
+reasoning; the historical A-now recommendation above is not erased.
+
+### Scope, non-goals and ownership
+
+This decision covers the full law-layer attribution policy and how readers see
+remaining real gaps versus lost attribution. The design and complete option / AC /
+verification matrix are in `docs/design/schema-literal-attribution-planning.md`.
+A future adopted decision must be recorded in `docs/mutation-testing.md` > Scope
+and a canonical Rheos comment, including its runner-up and why it lost.
+
+No implementation, schema/configuration rewrite, score ratchet, preset increase,
+closure of the separate emitter/CLI test gaps, new report parser, duplicate board
+engine, operational comment or lifecycle change is included. Existing personal
+PR 2 owns emitter/CLI/Bash testing; PR 3 owns the isolated shx.core runtime;
+PR 4 owns structural/boundary gates; PR 5 owns the portable-core proposal and
+explicitly retains this independent attribution-policy decision. None supplies
+approval or adopted semantics for this card.
+
+### Verification and remaining questions
+
+The four original acceptance criteria remain mandatory, including both
+conditional branches: A requires reviewed exclusion plus real remeasurement;
+D requires an actual upstream issue link. The proposal adds controls for
+executable-law coverage, schema constraints, an unrelated-test attribution
+perturbation, stale indexes, selector incompleteness and missing tools. The matrix
+preserves historical source/site references as dated evidence, not current counts.
+
+Current docs describe `.clj` discovery. PR 5 proposes `.cljc` law/domain/shape:
+its reviewed selector/instrumentation plan must demonstrably discover those files,
+keep executable-law mutants visible and distinguish host-dependent attribution.
+No pending `.cljc` behavior is borrowed into the current baseline.
+
+Before Ready, reviewers must settle the chosen option, the partition's observation
+method, any actual upstream D ownership/link, executable-law evidence retained
+under A, extension/host discovery and two-point sizing. Implementation follows
+planning review and lawful Rheos readiness. Later source/test/config changes
+require the entire unchanged seven-check `bin/analyze --strict` gate and meaningful
+mutation cases in a private sandbox; missing tools or unavailable attribution
+support remain explicit refusals. This proposal runs neither gate nor mutation.
